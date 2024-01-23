@@ -542,3 +542,4 @@ C:\Users\Owner\Downloads\Zohair\CMS\CMS\obj\Debug\net6.0\refint\CMS.dll
 C:\Users\Owner\Downloads\Zohair\CMS\CMS\obj\Debug\net6.0\CMS.pdb
 C:\Users\Owner\Downloads\Zohair\CMS\CMS\obj\Debug\net6.0\CMS.genruntimeconfig.cache
 C:\Users\Owner\Downloads\Zohair\CMS\CMS\obj\Debug\net6.0\ref\CMS.dll
+E:\E-Project\CMS\obj\Debug\net6.0\CMS.sourcelink.json

@@ -80,14 +80,14 @@
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="My profile">
                     <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseProfile" data-parent="#exampleAccordion">
                         <i class="fa fa-fw fa-wrench"></i>
-                        <span class="nav-link-text">My profile</span>
+                        <span class="nav-link-text">Manage Products</span>
                     </a>
                     <ul class="sidenav-second-level collapse" id="collapseProfile">
                         <li>
-                            <a href="user-profile.html">User profile</a>
+                            <a asp-action="ProductView" asp-controller="Admin">Show Products</a>
                         </li>
                         <li>
-                            <a href="doctor-profile.html">Doctor profile</a>
+                            <a asp-action="ProductAdd" asp-controller="Admin">Add Product</a>
                         </li>
                     </ul>
                 </li>
@@ -217,11 +217,9 @@
         </div>
     </nav>
     <!-- /Navigation-->
-    <div class="content-wrapper">
-        <div class="container-fluid">
+
         @RenderBody()
-</div>
-</div>
+
 
     <!-- Bootstrap core JavaScript-->
     <script src="~/Admincss/vendor/jquery/jquery.min.js"></script>

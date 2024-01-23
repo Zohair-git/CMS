@@ -8,5 +8,13 @@ namespace CMS.Controllers
         {
             return View();
         }
+        public IActionResult ProductAdd()
+        {
+            return View();
+        }
+        public IActionResult ProductView()
+        {
+            return View();
+        }
     }
 }
