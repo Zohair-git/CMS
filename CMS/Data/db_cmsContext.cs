@@ -30,9 +30,7 @@ namespace CMS.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 
-            =>    optionsBuilder.UseSqlServer();
-
-
+            =>   optionsBuilder.UseSqlServer();
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<TblAbout>(entity =>
@@ -155,9 +153,9 @@ namespace CMS.Data
 
                 entity.Property(e => e.Id).HasColumnName("id");
 
-                entity.Property(e => e.Details)
+                entity.Property(e => e.Desc)
                     .IsUnicode(false)
-                    .HasColumnName("details");
+                    .HasColumnName("desc");
 
                 entity.Property(e => e.Email)
                     .IsUnicode(false)
@@ -174,10 +172,6 @@ namespace CMS.Data
                 entity.Property(e => e.Password)
                     .IsUnicode(false)
                     .HasColumnName("password");
-
-                entity.Property(e => e.Username)
-                    .IsUnicode(false)
-                    .HasColumnName("username");
             });
 
             modelBuilder.Entity<TblEventBooking>(entity =>
@@ -281,6 +275,11 @@ namespace CMS.Data
                 entity.ToTable("tbl_products");
 
                 entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Category)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("category");
 
                 entity.Property(e => e.CompanyName)
                     .HasMaxLength(50)

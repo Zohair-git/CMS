@@ -19,6 +19,7 @@ namespace CMS.Models
         public int? Price { get; set; }
         public int? Saleprice { get; set; }
         public string? Image { get; set; }
+        public string? Category { get; set; }
 
         public virtual ICollection<TblFeedback> TblFeedbacks { get; set; }
         public virtual ICollection<TblImage> TblImages { get; set; }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CMS.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CMS.Controllers
 {
@@ -8,11 +9,22 @@ namespace CMS.Controllers
         {
             return View();
         }
+        [HttpGet]
         public IActionResult ProductAdd()
         {
             return View();
         }
-        public IActionResult ProductView()
+        [HttpPost]
+		public IActionResult ProductAdd(TblImage image , IFormFile imgs)
+		{
+            foreach (var  item in image)
+            {
+                
+            }
+            var dfd = "dfsd";
+			return View();
+		}
+		public IActionResult ProductView()
         {
             return View();
         }
