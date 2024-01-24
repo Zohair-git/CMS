@@ -17,14 +17,19 @@ namespace CMS.Controllers
         [HttpPost]
 		public IActionResult ProductAdd(TblImage image , IFormFile imgs)
 		{
-            foreach (var  item in image)
-            {
-                
-            }
-            var dfd = "dfsd";
+            
 			return View();
 		}
 		public IActionResult ProductView()
+        {
+            return View();
+        }
+
+        public IActionResult AddEvent()
+        {
+            return View();
+        }
+        public IActionResult ViewEvent()
         {
             return View();
         }
