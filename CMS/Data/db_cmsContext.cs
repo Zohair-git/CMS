@@ -29,8 +29,14 @@ namespace CMS.Data
         public virtual DbSet<TblUpcomingEvent> TblUpcomingEvents { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Server=.;Initial Catalog=db_cms;Persist Security Info=False;User ID=sa;Password=aptech;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;");
+            }
+        }
 
-            =>   optionsBuilder.UseSqlServer();
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<TblAbout>(entity =>
@@ -181,6 +187,14 @@ namespace CMS.Data
                 entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.EventId).HasColumnName("event_id");
+
+                entity.Property(e => e.Img)
+                    .IsUnicode(false)
+                    .HasColumnName("img");
+
+                entity.Property(e => e.Status)
+                    .HasColumnName("status")
+                    .HasDefaultValueSql("((0))");
 
                 entity.Property(e => e.UserId).HasColumnName("user_id");
 

@@ -48,19 +48,19 @@
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
                     <a class="nav-link" href="index.html">
                         <i class="fa fa-fw fa-dashboard"></i>
-                        <span class="nav-link-text">Dashboard</span>
+                        <span class="nav-link-text">Dashboard<span class="badge badge-pill badge-primary">6 New</span></span>
                     </a>
                 </li>
-                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Messages">
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Orders">
                     <a class="nav-link" href="messages.html">
-                        <i class="fa fa-fw fa-envelope-open"></i>
-                        <span class="nav-link-text">Messages</span>
+                        <i class="fa fa-fw fa-cart-plus"></i>
+                        <span class="nav-link-text">Orders</span>
                     </a>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Bookings">
-                    <a class="nav-link" href="bookings.html">
+                    <a class="nav-link" asp-action="Bookings" asp-controller="Admin">
                         <i class="fa fa-fw fa-calendar-check-o"></i>
-                        <span class="nav-link-text">Bookings <span class="badge badge-pill badge-primary">6 New</span></span>
+                        <span class="nav-link-text">Event Bookings</span>
                     </a>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Reviews">
@@ -69,16 +69,16 @@
                         <span class="nav-link-text">Reviews</span>
                     </a>
                 </li>
-                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Bookmarks">
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="About-Content">
                     <a class="nav-link" href="bookmarks.html">
-                        <i class="fa fa-fw fa-heart"></i>
-                        <span class="nav-link-text">Bookmarks</span>
+                        <i class="fa fa-fw fa-book"></i>
+                        <span class="nav-link-text">About Content</span>
                     </a>
                 </li>
-                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Add listing">
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Feedbacks">
                     <a class="nav-link" href="add-listing.html">
                         <i class="fa fa-fw fa-plus-circle"></i>
-                        <span class="nav-link-text">Add listing</span>
+                        <span class="nav-link-text">Feedbacks</span>
                     </a>
                 </li>
               
@@ -108,6 +108,7 @@
                         <li>
                             <a asp-action="AddEvent" asp-controller="Admin">Add Events</a>
                         </li>
+                      
                     </ul>
                 </li>
             </ul>

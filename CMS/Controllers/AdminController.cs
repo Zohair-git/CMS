@@ -1,11 +1,19 @@
-﻿using CMS.Models;
+﻿using CMS.Data;
+using CMS.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CMS.Controllers
 {
     public class AdminController : Controller
     {
-        public IActionResult Index()
+		private readonly db_cmsContext _context;
+
+		public AdminController(db_cmsContext context)
+		{
+			_context = context;
+		}
+		public IActionResult Index()
         {
             return View();
         }
@@ -14,10 +22,81 @@ namespace CMS.Controllers
         {
             return View();
         }
-        [HttpPost]
-		public IActionResult ProductAdd(TblImage image , IFormFile imgs)
+		[HttpPost]
+		public async Task<IActionResult> ProductAdd(AllTables model, List<IFormFile> imgs, IFormFile banner)
 		{
-            
+			var assddssad = model.productss.ProductName;
+
+			if (banner != null && banner.Length > 0)
+			{
+				var fileExt = System.IO.Path.GetExtension(banner.FileName).Substring(1);
+
+				var random = Path.GetFileName(banner.FileName);
+
+				var FileName = Guid.NewGuid() + random;
+
+				string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/myImages");
+
+				if (!Directory.Exists(imgFolder))
+				{
+					Directory.CreateDirectory(imgFolder);
+				}
+				string filepath = Path.Combine(imgFolder, FileName);
+				using (var stream = new FileStream(filepath, FileMode.Create))
+				{
+					banner.CopyTo(stream);
+				}
+				var dbAddress = Path.Combine("myImages", FileName);
+				model.productss.Image = dbAddress;
+
+
+
+
+				// Save product data to tbl_product
+				_context.TblProducts.Add(model.productss);
+				_context.SaveChanges();
+
+				// Save images to tbl_image
+				foreach (var img in imgs)
+				{
+					var filesExt = System.IO.Path.GetExtension(img.FileName).Substring(1);
+
+					var randoms = Path.GetFileName(img.FileName);
+
+					var FilesName = Guid.NewGuid() + random;
+
+					string imgsFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/myImages");
+
+					if (!Directory.Exists(imgsFolder))
+					{
+						Directory.CreateDirectory(imgsFolder);
+					}
+
+					string filespath = Path.Combine(imgsFolder, FilesName);
+
+					if (img != null && img.Length > 0)
+					{
+						using (var stream = new FileStream(filespath, FileMode.Create))
+						{
+							img.CopyTo(stream);
+
+							var dbAddresses = Path.Combine("myImages", FilesName);
+							var image = new TblImage
+							{
+								PId = model.productss.Id, // foreign key relationship
+								ImageName = dbAddresses,
+								AltTxt = "Image Alt Text", // Set your Alt text accordingly
+							};
+
+							_context.TblImages.Add(image);
+							await _context.SaveChangesAsync();
+						}
+					}
+				}
+				var sadsa = "sdsad";
+				return RedirectToAction("ProductView"); // Redirect to a view after successful submission
+			}
+
 			return View();
 		}
 		public IActionResult ProductView()
@@ -30,6 +109,14 @@ namespace CMS.Controllers
             return View();
         }
         public IActionResult ViewEvent()
+        {
+            return View();
+        }
+        public IActionResult Bookings()
+        {
+            return View();
+        }
+        public IActionResult AboutUs()
         {
             return View();
         }
