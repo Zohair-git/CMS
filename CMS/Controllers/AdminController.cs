@@ -116,7 +116,15 @@ namespace CMS.Controllers
         {
             return View();
         }
-        public IActionResult AboutUs()
+		public IActionResult RegisteredUser()
+		{
+			return View();
+		}
+		public IActionResult Feedbacks()
+		{
+			return View();
+		}
+		public IActionResult AboutUs()
         {
             return View();
         }
