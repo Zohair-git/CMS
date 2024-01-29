@@ -8,8 +8,8 @@ namespace CMS.Controllers
     public class AdminController : Controller
     {
 		private readonly db_cmsContext _context;
-
-		public AdminController(db_cmsContext context)
+       
+        public AdminController(db_cmsContext context)
 		{
 			_context = context;
 		}
@@ -103,10 +103,61 @@ namespace CMS.Controllers
         {
             return View();
         }
-
+		[HttpGet]
         public IActionResult AddEvent()
         {
             return View();
+        }
+        [HttpPost]
+        public IActionResult AddEvent(TblUpcomingEvent newevent , IFormFile banner)
+        {
+
+			if (banner != null && banner.Length > 0)
+			{
+				// GETTING IMAGE FILE EXTENSION 
+				var fileExt = System.IO.Path.GetExtension(banner.FileName).Substring(1);
+
+				// GETTING IMAGE NAME
+				var random = Path.GetFileName(banner.FileName);
+
+				// GUID ID COMBINE WITH IMAGE NAME - TO ESCAPE IMAGE NAME REDENDNCY 
+				var FileName = Guid.NewGuid() + random;
+
+				// GET PATH OF CUSTOM IMAGE FOLDER
+				string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/BannerImgs");
+
+				// CHECKING FOLDER EXIST OR NOT - IF NOT THEN CREATE F0LDER 
+				if (!Directory.Exists(imgFolder))
+				{
+					Directory.CreateDirectory(imgFolder);
+				}
+
+				// MAKING CUSTOM AND COMBINE FOLDER PATH WITH IMAHE 
+				string filepath = Path.Combine(imgFolder, FileName);
+
+				// COPY IMAGE TO REAL PATH TO DEVELOPER PATH
+				using (var stream = new FileStream(filepath, FileMode.Create))
+				{
+					banner.CopyTo(stream);
+				}
+
+				// READY SEND PATH TO  IMAGE TO DB  
+				var dbAddress = Path.Combine("BannerImgs", FileName);
+
+				// EQUALIZE TABLE (MODEL) PROPERTY WITH CUSTOM PATH 
+				newevent.Banner = dbAddress;
+				//MYIMAGES/imagetodbContext.JGP
+
+				// SEND TO TABLE 
+				_context.TblUpcomingEvents.Add(newevent);
+
+				//SSAVE TO DB 
+
+				_context.SaveChanges();
+
+				return RedirectToAction("ViewEvent");
+			}
+			return View();
         }
         public IActionResult ViewEvent()
         {
