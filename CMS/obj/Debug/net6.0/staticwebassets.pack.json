@@ -1,1583 +1,1591 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CMS.bundle.scp.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CMS.bundle.scp.css",
       "PackagePath": "staticwebassets\\CMS.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\css\\admin.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\css\\admin.css",
       "PackagePath": "staticwebassets\\Admincss\\css\\admin.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\css\\custom.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\css\\custom.css",
       "PackagePath": "staticwebassets\\Admincss\\css\\custom.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\apple-touch-icon-114x114-precomposed.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\apple-touch-icon-114x114-precomposed.png",
       "PackagePath": "staticwebassets\\Admincss\\img\\apple-touch-icon-114x114-precomposed.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\apple-touch-icon-144x144-precomposed.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\apple-touch-icon-144x144-precomposed.png",
       "PackagePath": "staticwebassets\\Admincss\\img\\apple-touch-icon-144x144-precomposed.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\apple-touch-icon-57x57-precomposed.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\apple-touch-icon-57x57-precomposed.png",
       "PackagePath": "staticwebassets\\Admincss\\img\\apple-touch-icon-57x57-precomposed.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\apple-touch-icon-72x72-precomposed.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\apple-touch-icon-72x72-precomposed.png",
       "PackagePath": "staticwebassets\\Admincss\\img\\apple-touch-icon-72x72-precomposed.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\avatar1.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\avatar1.jpg",
       "PackagePath": "staticwebassets\\Admincss\\img\\avatar1.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\avatar2.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\avatar2.jpg",
       "PackagePath": "staticwebassets\\Admincss\\img\\avatar2.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\avatar3.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\avatar3.jpg",
       "PackagePath": "staticwebassets\\Admincss\\img\\avatar3.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\avatar4.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\avatar4.jpg",
       "PackagePath": "staticwebassets\\Admincss\\img\\avatar4.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\avatar5.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\avatar5.jpg",
       "PackagePath": "staticwebassets\\Admincss\\img\\avatar5.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\avatar6.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\avatar6.jpg",
       "PackagePath": "staticwebassets\\Admincss\\img\\avatar6.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\favicon.ico",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\favicon.ico",
       "PackagePath": "staticwebassets\\Admincss\\img\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\logo.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\logo.png",
       "PackagePath": "staticwebassets\\Admincss\\img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\img\\logo_2x.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\img\\logo_2x.png",
       "PackagePath": "staticwebassets\\Admincss\\img\\logo_2x.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\admin-charts-all.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\admin-charts-all.js",
       "PackagePath": "staticwebassets\\Admincss\\js\\admin-charts-all.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\admin-charts.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\admin-charts.js",
       "PackagePath": "staticwebassets\\Admincss\\js\\admin-charts.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\admin-datatables.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\admin-datatables.js",
       "PackagePath": "staticwebassets\\Admincss\\js\\admin-datatables.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\admin.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\admin.js",
       "PackagePath": "staticwebassets\\Admincss\\js\\admin.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\font\\summernote.eot",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\font\\summernote.eot",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\font\\summernote.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\font\\summernote.ttf",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\font\\summernote.ttf",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\font\\summernote.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\font\\summernote.woff",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\font\\summernote.woff",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\font\\summernote.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-bs4.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-bs4.css",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\summernote-bs4.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-bs4.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-bs4.js",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\summernote-bs4.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-bs4.js.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-bs4.js.map",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\summernote-bs4.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-bs4.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-bs4.min.js",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\summernote-bs4.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-lite.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-lite.css",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\summernote-lite.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-lite.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-lite.js",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\summernote-lite.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-lite.js.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote-lite.js.map",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\summernote-lite.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote.css",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\summernote.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote.js",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\summernote.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote.js.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote.js.map",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\summernote.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\summernote.min.js",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\summernote.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\templates.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\js\\editor\\templates.js",
       "PackagePath": "staticwebassets\\Admincss\\js\\editor\\templates.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\_cards.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\_cards.scss",
       "PackagePath": "staticwebassets\\Admincss\\scss\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\_footer.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\_footer.scss",
       "PackagePath": "staticwebassets\\Admincss\\scss\\_footer.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\_global.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\_global.scss",
       "PackagePath": "staticwebassets\\Admincss\\scss\\_global.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\_mixins.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\Admincss\\scss\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\_utilities.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\Admincss\\scss\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\_variables.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\Admincss\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\admin.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\admin.scss",
       "PackagePath": "staticwebassets\\Admincss\\scss\\admin.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\config.rb",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\config.rb",
       "PackagePath": "staticwebassets\\Admincss\\scss\\config.rb"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\navbar\\_navbar_colors.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\navbar\\_navbar_colors.scss",
       "PackagePath": "staticwebassets\\Admincss\\scss\\navbar\\_navbar_colors.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\navbar\\_navbar_fixed.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\navbar\\_navbar_fixed.scss",
       "PackagePath": "staticwebassets\\Admincss\\scss\\navbar\\_navbar_fixed.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\navbar\\_navbar_global.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\navbar\\_navbar_global.scss",
       "PackagePath": "staticwebassets\\Admincss\\scss\\navbar\\_navbar_global.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\navbar\\_navbar_static.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\navbar\\_navbar_static.scss",
       "PackagePath": "staticwebassets\\Admincss\\scss\\navbar\\_navbar_static.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\scss\\navbar\\_navbar_toggle.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\scss\\navbar\\_navbar_toggle.scss",
       "PackagePath": "staticwebassets\\Admincss\\scss\\navbar\\_navbar_toggle.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\animate.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\animate.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\animate.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\animate.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\animate.min.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\animate.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\chart.js\\Chart.bundle.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\chart.js\\Chart.bundle.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\chart.js\\Chart.bundle.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\chart.js\\Chart.bundle.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\chart.js\\Chart.bundle.min.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\chart.js\\Chart.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\chart.js\\Chart.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\chart.js\\Chart.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\chart.js\\Chart.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\chart.js\\Chart.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\chart.js\\Chart.min.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\chart.js\\Chart.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\datatables\\dataTables.bootstrap4.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\datatables\\dataTables.bootstrap4.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\datatables\\dataTables.bootstrap4.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\datatables\\dataTables.bootstrap4.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\datatables\\dataTables.bootstrap4.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\datatables\\dataTables.bootstrap4.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\datatables\\jquery.dataTables.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\datatables\\jquery.dataTables.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\datatables\\jquery.dataTables.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\dropzone.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\dropzone.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\dropzone.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\dropzone.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\dropzone.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\dropzone.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\dropzone.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\dropzone.min.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\dropzone.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\css\\font-awesome.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\css\\font-awesome.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\animated.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\animated.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\animated.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\bordered-pulled.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\bordered-pulled.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\bordered-pulled.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\core.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\core.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\core.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\fixed-width.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\fixed-width.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\fixed-width.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\font-awesome.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\font-awesome.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\font-awesome.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\icons.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\icons.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\icons.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\larger.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\larger.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\larger.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\list.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\list.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\list.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\mixins.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\mixins.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\mixins.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\path.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\path.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\path.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\rotated-flipped.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\rotated-flipped.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\rotated-flipped.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\screen-reader.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\screen-reader.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\screen-reader.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\stacked.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\stacked.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\stacked.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\variables.less",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\less\\variables.less",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\less\\variables.less"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_animated.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_animated.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_animated.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_bordered-pulled.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_bordered-pulled.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_bordered-pulled.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_core.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_core.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_core.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_fixed-width.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_fixed-width.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_fixed-width.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_icons.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_icons.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_icons.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_larger.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_larger.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_larger.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_list.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_list.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_list.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_mixins.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_path.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_path.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_path.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_rotated-flipped.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_rotated-flipped.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_rotated-flipped.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_screen-reader.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_screen-reader.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_screen-reader.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_stacked.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_stacked.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_stacked.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_variables.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\font-awesome.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\font-awesome\\scss\\font-awesome.scss",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\font-awesome\\scss\\font-awesome.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery-easing\\jquery.easing.compatibility.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery-easing\\jquery.easing.compatibility.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\jquery-easing\\jquery.easing.compatibility.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery-easing\\jquery.easing.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery-easing\\jquery.easing.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\jquery-easing\\jquery.easing.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery-easing\\jquery.easing.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery-easing\\jquery.easing.min.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\jquery-easing\\jquery.easing.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery.magnific-popup.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery.magnific-popup.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\jquery.magnific-popup.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery.magnific-popup.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery.magnific-popup.min.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\jquery.magnific-popup.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery.selectbox-0.2.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery.selectbox-0.2.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\jquery.selectbox-0.2.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery\\jquery.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery\\jquery.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\jquery\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery\\jquery.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\jquery\\jquery.min.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\jquery\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\magnific-popup.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\magnific-popup.css",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\retina-replace.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\retina-replace.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\retina-replace.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\retina-replace.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\vendor\\retina-replace.min.js",
       "PackagePath": "staticwebassets\\Admincss\\vendor\\retina-replace.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\BannerImgs\\bfe911fa-f9b2-481c-a9c6-b19f96634e2fBanner-944x512.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\BannerImgs\\2d62976d-f1ad-4a32-8cf2-57dedeeda37ckkPHxg.png",
+      "PackagePath": "staticwebassets\\BannerImgs\\2d62976d-f1ad-4a32-8cf2-57dedeeda37ckkPHxg.png"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\BannerImgs\\37c21d43-e895-4fc9-b5ad-9e6d8adf9e56Banner-944x512.jpg",
+      "PackagePath": "staticwebassets\\BannerImgs\\37c21d43-e895-4fc9-b5ad-9e6d8adf9e56Banner-944x512.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\BannerImgs\\bfe911fa-f9b2-481c-a9c6-b19f96634e2fBanner-944x512.jpg",
       "PackagePath": "staticwebassets\\BannerImgs\\bfe911fa-f9b2-481c-a9c6-b19f96634e2fBanner-944x512.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\BannerImgs\\d4511946-bac4-4797-a160-2656c349b533Banner-944x512.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\BannerImgs\\d4511946-bac4-4797-a160-2656c349b533Banner-944x512.jpg",
       "PackagePath": "staticwebassets\\BannerImgs\\d4511946-bac4-4797-a160-2656c349b533Banner-944x512.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\BannerImgs\\dd58059d-a442-4b63-83ab-9c1484baa562Banner-944x512.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\BannerImgs\\dd58059d-a442-4b63-83ab-9c1484baa562Banner-944x512.jpg",
       "PackagePath": "staticwebassets\\BannerImgs\\dd58059d-a442-4b63-83ab-9c1484baa562Banner-944x512.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\assets\\booking.php",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\assets\\booking.php",
       "PackagePath": "staticwebassets\\Usercss\\assets\\booking.php"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\assets\\contact.php",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\assets\\contact.php",
       "PackagePath": "staticwebassets\\Usercss\\assets\\contact.php"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\assets\\register_doctor.php",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\assets\\register_doctor.php",
       "PackagePath": "staticwebassets\\Usercss\\assets\\register_doctor.php"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\assets\\validate.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\assets\\validate.js",
       "PackagePath": "staticwebassets\\Usercss\\assets\\validate.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\ajax-loader.gif",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\Usercss\\css\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\blog.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\blog.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\blog.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\custom.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\custom.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\custom.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\date_picker.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\date_picker.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\date_picker.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\datedropper.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\datedropper.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\datedropper.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\datedropper.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\datedropper.min.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\datedropper.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\css\\all_icons.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\css\\all_icons.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\css\\all_icons.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\css\\all_icons_min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\css\\all_icons_min.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\css\\all_icons_min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\css\\fontello-codes.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\css\\fontello-codes.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\css\\fontello-codes.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\css\\icon_set_1.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\css\\icon_set_1.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\css\\icon_set_1.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\css\\icon_set_2.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\css\\icon_set_2.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\css\\icon_set_2.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\css\\icon_set_3.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\css\\icon_set_3.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\css\\icon_set_3.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\demo_icon_set_1.html",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\demo_icon_set_1.html",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\demo_icon_set_1.html"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\demo_icon_set_2.html",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\demo_icon_set_2.html",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\demo_icon_set_2.html"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\demo_icon_set_3.html",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\demo_icon_set_3.html",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\demo_icon_set_3.html"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\ElegantIcons.eot",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\ElegantIcons.eot",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\ElegantIcons.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\ElegantIcons.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\ElegantIcons.svg",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\ElegantIcons.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\ElegantIcons.ttf",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\ElegantIcons.ttf",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\ElegantIcons.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\ElegantIcons.woff",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\ElegantIcons.woff",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\ElegantIcons.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\Pe-icon-7-stroke.eot",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\Pe-icon-7-stroke.eot",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\Pe-icon-7-stroke.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\Pe-icon-7-stroke.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\Pe-icon-7-stroke.svg",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\Pe-icon-7-stroke.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\Pe-icon-7-stroke.ttf",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\Pe-icon-7-stroke.ttf",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\Pe-icon-7-stroke.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\Pe-icon-7-stroke.woff",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\Pe-icon-7-stroke.woff",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\Pe-icon-7-stroke.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\fontello.eot",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\fontello.eot",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\fontello.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\fontello.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\fontello.svg",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\fontello.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\fontello.ttf",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\fontello.ttf",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\fontello.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\fontello.woff",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\fontello.woff",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\fontello.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\icon_set_1.eot",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\icon_set_1.eot",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\icon_set_1.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\icon_set_1.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\icon_set_1.svg",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\icon_set_1.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\icon_set_1.ttf",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\icon_set_1.ttf",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\icon_set_1.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\icon_set_1.woff",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\icon_fonts\\font\\icon_set_1.woff",
       "PackagePath": "staticwebassets\\Usercss\\css\\icon_fonts\\font\\icon_set_1.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\menu.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\menu.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\menu.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\01.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\01.png",
       "PackagePath": "staticwebassets\\Usercss\\css\\overlays\\01.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\02.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\02.png",
       "PackagePath": "staticwebassets\\Usercss\\css\\overlays\\02.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\03.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\03.png",
       "PackagePath": "staticwebassets\\Usercss\\css\\overlays\\03.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\04.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\04.png",
       "PackagePath": "staticwebassets\\Usercss\\css\\overlays\\04.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\05.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\05.png",
       "PackagePath": "staticwebassets\\Usercss\\css\\overlays\\05.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\06.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\06.png",
       "PackagePath": "staticwebassets\\Usercss\\css\\overlays\\06.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\07.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\07.png",
       "PackagePath": "staticwebassets\\Usercss\\css\\overlays\\07.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\08.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\08.png",
       "PackagePath": "staticwebassets\\Usercss\\css\\overlays\\08.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\09.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\overlays\\09.png",
       "PackagePath": "staticwebassets\\Usercss\\css\\overlays\\09.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\owl.video.play.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\owl.video.play.png",
       "PackagePath": "staticwebassets\\Usercss\\css\\owl.video.play.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\src\\datedropper.eot",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\src\\datedropper.eot",
       "PackagePath": "staticwebassets\\Usercss\\css\\src\\datedropper.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\src\\datedropper.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\src\\datedropper.svg",
       "PackagePath": "staticwebassets\\Usercss\\css\\src\\datedropper.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\src\\datedropper.ttf",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\src\\datedropper.ttf",
       "PackagePath": "staticwebassets\\Usercss\\css\\src\\datedropper.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\src\\datedropper.woff",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\src\\datedropper.woff",
       "PackagePath": "staticwebassets\\Usercss\\css\\src\\datedropper.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\style.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\style.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\tables.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\tables.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\tables.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\timedropper.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\timedropper.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\timedropper.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\timedropper.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\timedropper.min.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\timedropper.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\vegas.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\vegas.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\vegas.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\vegas.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\vegas.min.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\vegas.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\vendors.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\vendors.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\vendors.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\css\\vendors.uncompressed.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\css\\vendors.uncompressed.css",
       "PackagePath": "staticwebassets\\Usercss\\css\\vendors.uncompressed.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\about_1.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\about_1.jpg",
       "PackagePath": "staticwebassets\\Usercss\\img\\about_1.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\app_img.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\app_img.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\app_img.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\apple-touch-icon-114x114-precomposed.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\apple-touch-icon-114x114-precomposed.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\apple-touch-icon-114x114-precomposed.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\apple-touch-icon-144x144-precomposed.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\apple-touch-icon-144x144-precomposed.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\apple-touch-icon-144x144-precomposed.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\apple-touch-icon-57x57-precomposed.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\apple-touch-icon-57x57-precomposed.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\apple-touch-icon-57x57-precomposed.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\apple-touch-icon-72x72-precomposed.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\apple-touch-icon-72x72-precomposed.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\apple-touch-icon-72x72-precomposed.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\apple_app.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\apple_app.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\apple_app.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\apple_app_2x.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\apple_app_2x.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\apple_app_2x.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\arrow-gray-1.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\arrow-gray-1.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\arrow-gray-1.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\arrow_down.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\arrow_down.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\arrow_down.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\arrow_down_menu.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\arrow_down_menu.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\arrow_down_menu.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\arrow_left.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\arrow_left.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\arrow_left.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\arrow_right.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\arrow_right.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\arrow_right.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\badges\\badge_1.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\badges\\badge_1.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\badges\\badge_1.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\badges\\badge_2.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\badges\\badge_2.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\badges\\badge_2.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\badges\\badge_3.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\badges\\badge_3.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\badges\\badge_3.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\badges\\badge_4.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\badges\\badge_4.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\badges\\badge_4.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\badges\\badge_5.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\badges\\badge_5.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\badges\\badge_5.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\badges\\badge_6.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\badges\\badge_6.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\badges\\badge_6.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\bg_2.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\bg_2.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\bg_2.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\bg_menu.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\bg_menu.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\bg_menu.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\camera.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\camera.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\camera.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\checkbox.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\checkbox.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\checkbox.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\checkbox.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\checkbox.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\checkbox.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\close_infobox.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\close_infobox.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\close_infobox.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\doctor_listing_1.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\doctor_listing_1.jpg",
       "PackagePath": "staticwebassets\\Usercss\\img\\doctor_listing_1.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\doctors_icon.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\doctors_icon.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\doctors_icon.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\favicon.ico",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\favicon.ico",
       "PackagePath": "staticwebassets\\Usercss\\img\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\google_play_app.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\google_play_app.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\google_play_app.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\google_play_app_2x.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\google_play_app_2x.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\google_play_app_2x.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\hero_bg_1.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\hero_bg_1.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\hero_bg_1.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\hero_home_bg_1.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\hero_home_bg_1.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\hero_home_bg_1.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon-home-1.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon-home-1.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\icon-home-1.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon-home-2.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon-home-2.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\icon-home-2.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon-home-3.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon-home-3.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\icon-home-3.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_1.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_1.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\icon_cat_1.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_2.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_2.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\icon_cat_2.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_3.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_3.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\icon_cat_3.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_4.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_4.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\icon_cat_4.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_5.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_5.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\icon_cat_5.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_6.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_6.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\icon_cat_6.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_7.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_7.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\icon_cat_7.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_8.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_cat_8.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\icon_cat_8.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_ccv.gif",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\icon_ccv.gif",
       "PackagePath": "staticwebassets\\Usercss\\img\\icon_ccv.gif"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\logo.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\logo.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\logo_no_name.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\logo_no_name.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\logo_no_name.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\map-marker-contacts.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\map-marker-contacts.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\map-marker-contacts.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\map-marker.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\map-marker.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\map-marker.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\patient_icon.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\patient_icon.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\patient_icon.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\payments.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\payments.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\payments.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\payments_2x.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\payments_2x.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\payments_2x.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\paypal_bt.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\paypal_bt.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\paypal_bt.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\pins\\Doctors.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\pins\\Doctors.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\pins\\Doctors.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\search.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\search.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\search.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\select-icons.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\select-icons.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\select-icons.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\shadow_pic.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\shadow_pic.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\shadow_pic.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\slides\\1.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\slides\\1.jpg",
       "PackagePath": "staticwebassets\\Usercss\\img\\slides\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\slides\\2.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\slides\\2.jpg",
       "PackagePath": "staticwebassets\\Usercss\\img\\slides\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\slides\\3.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\slides\\3.jpg",
       "PackagePath": "staticwebassets\\Usercss\\img\\slides\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\small-arrow.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\small-arrow.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\small-arrow.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\stars.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\stars.svg",
       "PackagePath": "staticwebassets\\Usercss\\img\\stars.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\subheader_bg_1.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\subheader_bg_1.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\subheader_bg_1.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\img\\video_fix.png",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\img\\video_fix.png",
       "PackagePath": "staticwebassets\\Usercss\\img\\video_fix.png"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\ResizeSensor.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\ResizeSensor.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\ResizeSensor.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\ResizeSensor.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\ResizeSensor.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\ResizeSensor.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\bootstrap-datepicker.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\bootstrap-datepicker.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\bootstrap-datepicker.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\common_scripts.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\common_scripts.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\common_scripts.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\common_scripts.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\common_scripts.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\common_scripts.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\datedropper.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\datedropper.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\datedropper.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\datedropper.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\datedropper.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\datedropper.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\functions.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\functions.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\functions.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\hideShowPassword.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\hideShowPassword.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\hideShowPassword.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\hideShowPassword.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\hideShowPassword.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\hideShowPassword.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\infobox.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\infobox.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\infobox.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\jquery-3.7.1.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\jquery-3.7.1.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\jquery-3.7.1.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\jquery.cookiebar.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\jquery.cookiebar.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\jquery.cookiebar.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\jquery.selectbox-0.2.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\jquery.selectbox-0.2.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\jquery.selectbox-0.2.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\map_home.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\map_home.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\map_home.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\map_listing.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\map_listing.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\map_listing.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\mapmarker.jquery.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\mapmarker.jquery.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\mapmarker.jquery.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\mapmarker_contacts_func.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\mapmarker_contacts_func.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\mapmarker_contacts_func.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\mapmarker_func.jquery.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\mapmarker_func.jquery.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\mapmarker_func.jquery.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\markerclusterer.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\markerclusterer.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\markerclusterer.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\modernizr.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\modernizr.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\modernizr.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\modernizr_tables.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\modernizr_tables.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\modernizr_tables.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\owl.carousel.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\owl.carousel.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\owl.carousel.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\owl.carousel.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\pw_strenght.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\pw_strenght.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\pw_strenght.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\sticky-kit-1.4.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\sticky-kit-1.4.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\sticky-kit-1.4.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\sticky-kit-1.4.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\sticky-kit-1.4.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\sticky-kit-1.4.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\sticky-kit.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\sticky-kit.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\sticky-kit.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\sticky-kit.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\sticky-kit.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\sticky-kit.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\tables_func.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\tables_func.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\tables_func.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\tables_func_2.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\tables_func_2.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\tables_func_2.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\tabs.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\tabs.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\tabs.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\theia-sticky-sidebar.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\theia-sticky-sidebar.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\theia-sticky-sidebar.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\theia-sticky-sidebar.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\theia-sticky-sidebar.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\theia-sticky-sidebar.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\timedropper.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\timedropper.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\timedropper.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\timedropper.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\timedropper.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\timedropper.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\vegas.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\vegas.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\vegas.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\vegas.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\vegas.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\vegas.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\video_header.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\video_header.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\video_header.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\wow.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\wow.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\wow.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\js\\wow.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\js\\wow.min.js",
       "PackagePath": "staticwebassets\\Usercss\\js\\wow.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\100x50_364e0-37885311_ml.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\100x50_364e0-37885311_ml.jpg",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\assets\\100x50_364e0-37885311_ml.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\100x50_4e36b-42512211_ml.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\100x50_4e36b-42512211_ml.jpg",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\assets\\100x50_4e36b-42512211_ml.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\100x50_b9dee-42512210_ml.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\100x50_b9dee-42512210_ml.jpg",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\assets\\100x50_b9dee-42512210_ml.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\364e0-37885311_ml.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\364e0-37885311_ml.jpg",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\assets\\364e0-37885311_ml.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\4e36b-42512211_ml.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\4e36b-42512211_ml.jpg",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\assets\\4e36b-42512211_ml.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\b9dee-42512210_ml.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\b9dee-42512210_ml.jpg",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\assets\\b9dee-42512210_ml.jpg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\loader.gif",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\assets\\loader.gif",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\assets\\loader.gif"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\css\\settings.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\css\\settings.css",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\css\\settings.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\css\\font-awesome.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\font-awesome\\css\\font-awesome.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\font-awesome\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\css\\helper.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\css\\helper.css",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\css\\helper.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.eot",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.eot",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.svg",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.ttf",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.ttf",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.woff",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.woff",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroke.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\revicons\\revicons.eot",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\revicons\\revicons.eot",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\revicons\\revicons.eot"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\revicons\\revicons.svg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\revicons\\revicons.svg",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\revicons\\revicons.svg"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\revicons\\revicons.ttf",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\revicons\\revicons.ttf",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\revicons\\revicons.ttf"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\revicons\\revicons.woff",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\fonts\\revicons\\revicons.woff",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\fonts\\revicons\\revicons.woff"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.actions.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.actions.min.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.actions.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.carousel.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.carousel.min.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.kenburn.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.kenburn.min.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.kenburn.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.layeranimation.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.layeranimation.min.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.layeranimation.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.migration.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.migration.min.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.migration.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.navigation.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.navigation.min.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.navigation.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.parallax.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.parallax.min.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.parallax.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.slideanims.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.slideanims.min.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.slideanims.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.video.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.video.min.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\extensions\\revolution.extension.video.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\jquery.revslider-doctor_slider_1.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\jquery.revslider-doctor_slider_1.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\jquery.revslider-doctor_slider_1.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\jquery.revslider.embed.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\jquery.revslider.embed.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\jquery.revslider.embed.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\jquery.themepunch.enablelog.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\jquery.themepunch.enablelog.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\jquery.themepunch.enablelog.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\jquery.themepunch.revolution.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\jquery.themepunch.revolution.min.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\jquery.themepunch.revolution.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\jquery.themepunch.tools.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\rev-slider-files\\js\\jquery.themepunch.tools.min.js",
       "PackagePath": "staticwebassets\\Usercss\\rev-slider-files\\js\\jquery.themepunch.tools.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\sass\\_layout.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\sass\\_layout.scss",
       "PackagePath": "staticwebassets\\Usercss\\sass\\_layout.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\sass\\_mixins.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\sass\\_mixins.scss",
       "PackagePath": "staticwebassets\\Usercss\\sass\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\sass\\_variables.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\sass\\_variables.scss",
       "PackagePath": "staticwebassets\\Usercss\\sass\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\sass\\blog.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\sass\\blog.scss",
       "PackagePath": "staticwebassets\\Usercss\\sass\\blog.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\sass\\compass_app_log.txt",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\sass\\compass_app_log.txt",
       "PackagePath": "staticwebassets\\Usercss\\sass\\compass_app_log.txt"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\sass\\config.rb",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\sass\\config.rb",
       "PackagePath": "staticwebassets\\Usercss\\sass\\config.rb"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\sass\\menu.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\sass\\menu.scss",
       "PackagePath": "staticwebassets\\Usercss\\sass\\menu.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\sass\\style.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\sass\\style.scss",
       "PackagePath": "staticwebassets\\Usercss\\sass\\style.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\sass\\tables.scss",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Usercss\\sass\\tables.scss",
       "PackagePath": "staticwebassets\\Usercss\\sass\\tables.scss"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\myImages\\c103ed06-8752-4259-8452-6cdd4e0c08ceBanner-944x512.jpg",
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\myImages\\c103ed06-8752-4259-8452-6cdd4e0c08ceBanner-944x512.jpg",
       "PackagePath": "staticwebassets\\myImages\\c103ed06-8752-4259-8452-6cdd4e0c08ceBanner-944x512.jpg"
     },
     {
