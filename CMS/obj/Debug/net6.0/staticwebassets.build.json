@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9v6rUIu9G+Vsb0+jxUkGJ04N5CyKs7UDZqwtGnKbmbs=",
+  "Hash": "lis+dO5afpfXeicaBc2dv/2QIsG23nG99esMzsA0x+M=",
   "Source": "CMS",
   "BasePath": "_content/CMS",
   "Mode": "Default",
@@ -2023,6 +2023,23 @@
       "OriginalItemSpec": "wwwroot\\Admincss\\vendor\\retina-replace.min.js"
     },
     {
+      "Identity": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\BannerImgs\\bfe911fa-f9b2-481c-a9c6-b19f96634e2fBanner-944x512.jpg",
+      "SourceId": "CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\",
+      "BasePath": "_content/CMS",
+      "RelativePath": "BannerImgs/bfe911fa-f9b2-481c-a9c6-b19f96634e2fBanner-944x512.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BannerImgs\\bfe911fa-f9b2-481c-a9c6-b19f96634e2fBanner-944x512.jpg"
+    },
+    {
       "Identity": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\BannerImgs\\d4511946-bac4-4797-a160-2656c349b533Banner-944x512.jpg",
       "SourceId": "CMS",
       "SourceType": "Discovered",
@@ -2038,6 +2055,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\BannerImgs\\d4511946-bac4-4797-a160-2656c349b533Banner-944x512.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\BannerImgs\\dd58059d-a442-4b63-83ab-9c1484baa562Banner-944x512.jpg",
+      "SourceId": "CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\",
+      "BasePath": "_content/CMS",
+      "RelativePath": "BannerImgs/dd58059d-a442-4b63-83ab-9c1484baa562Banner-944x512.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BannerImgs\\dd58059d-a442-4b63-83ab-9c1484baa562Banner-944x512.jpg"
     },
     {
       "Identity": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\css\\site.css",

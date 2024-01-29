@@ -161,7 +161,7 @@ namespace CMS.Controllers
         }
         public IActionResult ViewEvent()
         {
-            return View();
+            return View(_context.TblUpcomingEvents.ToList());
         }
         public IActionResult Bookings()
         {

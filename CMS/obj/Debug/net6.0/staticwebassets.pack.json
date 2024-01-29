@@ -469,8 +469,16 @@
       "PackagePath": "staticwebassets\\Admincss\\vendor\\retina-replace.min.js"
     },
     {
+      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\BannerImgs\\bfe911fa-f9b2-481c-a9c6-b19f96634e2fBanner-944x512.jpg",
+      "PackagePath": "staticwebassets\\BannerImgs\\bfe911fa-f9b2-481c-a9c6-b19f96634e2fBanner-944x512.jpg"
+    },
+    {
       "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\BannerImgs\\d4511946-bac4-4797-a160-2656c349b533Banner-944x512.jpg",
       "PackagePath": "staticwebassets\\BannerImgs\\d4511946-bac4-4797-a160-2656c349b533Banner-944x512.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\BannerImgs\\dd58059d-a442-4b63-83ab-9c1484baa562Banner-944x512.jpg",
+      "PackagePath": "staticwebassets\\BannerImgs\\dd58059d-a442-4b63-83ab-9c1484baa562Banner-944x512.jpg"
     },
     {
       "Id": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\wwwroot\\Usercss\\assets\\booking.php",

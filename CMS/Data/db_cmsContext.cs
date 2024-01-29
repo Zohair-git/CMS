@@ -29,11 +29,10 @@ namespace CMS.Data
         public virtual DbSet<TblUpcomingEvent> TblUpcomingEvents { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-
-         =>
-           
+        =>
+      
                 optionsBuilder.UseSqlServer();
-           
+            
         
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -323,9 +322,7 @@ namespace CMS.Data
             {
                 entity.ToTable("tbl_upcoming_event");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Banner)
                     .IsUnicode(false)

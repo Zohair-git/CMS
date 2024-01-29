@@ -2,6 +2,7 @@
 
     Layout = "_AdminLayout";
 }
+@model IEnumerable<TblUpcomingEvent>
 
 
 <div class="content-wrapper">
@@ -41,20 +42,33 @@
                         </thead>
                        
                         <tbody>
+                            @foreach(var tempData in Model)
+                            {
                             <tr>
-                                <td>1</td>
-                                <td>Panadol</td>
-                                <td>Edinburgh hhh</td>
-                                <td>21-2-24</td>
-                                <td>2:30</td>
-                                <td>200</td>
-                                 <td>mehmoob khan</td>
-                                <td>200</td>
-                                <td>Landhi</td>
+                                <td>@tempData.Id</td>
+                                <td>@tempData.Topic</td>
+                                    <td>
+                                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            Show Details
+                                        </a>
+                                        <div class="collapse" id="collapseExample">
+                                            <div class="card card-body">
+                                                @tempData.Details
+                                            </div>
+                                        </div>
+                                      
+                                        </td>
+                                    <td>@tempData.Date</td>
+                                    <td>@tempData.Time</td>
+                                    <td>@tempData.TotalSeats</td>
+                                    <td>@tempData.Faculty</td>
+                                    <td>@tempData.EntryFee</td>
+                                    <td>@tempData.Location</td>
                                  <td><button class="btn btn-danger">Edit</button></td>
 
 
                             </tr>
+                            }
                            
                         </tbody>
                     </table>
