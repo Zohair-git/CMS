@@ -29,9 +29,9 @@ namespace CMS.Data
         public virtual DbSet<TblUpcomingEvent> TblUpcomingEvents { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-      =>
-                optionsBuilder.UseSqlServer();
-          
+
+              =>  optionsBuilder.UseSqlServer();
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

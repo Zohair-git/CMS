@@ -1,6 +1,7 @@
 ﻿using CMS.Data;
 using CMS.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace CMS.Controllers
@@ -24,7 +25,16 @@ namespace CMS.Controllers
         {
             return View();
         }
-        public IActionResult Login()
+		public IActionResult ShowEvents()
+		{
+			return View(db.TblUpcomingEvents.ToList());
+		}
+
+		public IActionResult EventBookingForm()
+		{
+			return View();
+		}
+		public IActionResult Login()
         {
             return View();
         } 
