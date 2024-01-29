@@ -46,7 +46,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" asp-action="Index" asp-controller="Admin">
                         <i class="fa fa-fw fa-dashboard"></i>
                         <span class="nav-link-text">Dashboard<span class="badge badge-pill badge-primary">6 New</span></span>
                     </a>
@@ -223,13 +223,9 @@
         </div>
     </nav>
     <!-- /Navigation-->
-    <div class="content-wrapper">
-        <div class="container-fluid">
+    
         @RenderBody()
-        </div>
-        <!-- /container-fluid-->
-    </div>
-
+       
     <!-- Bootstrap core JavaScript-->
     <script src="~/Admincss/vendor/jquery/jquery.min.js"></script>
     <script src="~/Admincss/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
