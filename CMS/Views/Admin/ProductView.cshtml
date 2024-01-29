@@ -1,6 +1,7 @@
 ﻿@{
     Layout = "_AdminLayout";
 }
+@model IEnumerable<TblProduct>
 <div class="content-wrapper">
     <div class="container-fluid">
         <!-- Breadcrumbs-->
@@ -34,17 +35,19 @@
                             </tr>
                         </thead>
                         <tbody>
+                            @foreach(var prod in Model){
                             <tr>
-                                <td>Tiger Nixon</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>$320,800</td>
-                                <td>Tiger Nixon</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
+                               <td>@prod.Id</td>
+                                    <td>@prod.ProductName</td>
+                                    <td>@prod.CompanyName</td>
+                                    <td>@prod.Description</td>
+                                    <td>@prod.Stock</td>
+                                    <td>@prod.Price</td>
+                                    <td>@prod.Saleprice</td>
+                                    <td><img src="~/@prod.Image" width="200px" height="200px"/></td>
+                               <td>@prod.Category</td>
                             </tr>
+                            }
                         </tbody>
                     </table>
                 </div>

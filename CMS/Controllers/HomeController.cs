@@ -50,6 +50,14 @@ namespace CMS.Controllers
 		{
 			return View();
 		}
+        public IActionResult ProductsPage()
+		{
+			return View();
+		} 
+        public IActionResult ProductDetails()
+		{
+			return View();
+		}
 
 		public IActionResult Privacy()
         {
