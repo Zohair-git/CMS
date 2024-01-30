@@ -9956,19 +9956,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\money\\.nuget\\packages\\": {}
+    "C:\\Users\\Owner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\money\\OneDrive\\Desktop\\CMS\\CMS\\CMS.csproj",
+      "projectUniqueName": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\CMS.csproj",
       "projectName": "CMS",
-      "projectPath": "C:\\Users\\money\\OneDrive\\Desktop\\CMS\\CMS\\CMS.csproj",
-      "packagesPath": "C:\\Users\\money\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\money\\OneDrive\\Desktop\\CMS\\CMS\\obj\\",
+      "projectPath": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\CMS.csproj",
+      "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\money\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
