@@ -105,7 +105,7 @@ namespace CMS.Controllers
 		}
 		public IActionResult ProductView()
         {
-            return View();
+            return View(_context.TblProducts.ToList());
         }
 		[HttpGet]
         public IActionResult AddEvent()
