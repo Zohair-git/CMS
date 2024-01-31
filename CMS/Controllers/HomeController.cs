@@ -53,17 +53,17 @@ namespace CMS.Controllers
 
 			var backend_name = fetchuser[0].Name;
 			var backend_email = fetchuser[0].Email;
+            var backend_id = fetchuser[0].Id;
 			var backend_password = fetchuser[0].Password;
-
-			if (front_email == backend_email && front_password == backend_password)
+            if (front_email == backend_email && front_password == backend_password)
 			{
 				cont.HttpContext.Session.SetString("name", backend_name);
 				cont.HttpContext.Session.SetString("email", backend_email);
-				cont.HttpContext.Session.SetString("password", backend_password);
+				cont.HttpContext.Session.SetInt32("session_id", backend_id);
 
 				var session_name = cont.HttpContext.Session.GetString("name");
 				var session_email = cont.HttpContext.Session.GetString("email");
-				var session_password = cont.HttpContext.Session.GetString("password");
+				var session_id = cont.HttpContext.Session.GetInt32("session_id");
 
 					return RedirectToAction("Index", "Home");
 
