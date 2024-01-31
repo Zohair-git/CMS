@@ -31,12 +31,20 @@ namespace CMS.Controllers
         }
 		public IActionResult ShowEvents()
 		{
+			TempData["Name"] = cont.HttpContext.Session.GetString("name");
+			TempData["Email"] = cont.HttpContext.Session.GetString("email");
+			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+
 			return View(db.TblUpcomingEvents.ToList());
 		}
 
-		public IActionResult EventBookingForm(int id)
+		public IActionResult EventBookingForm()
 		{
-			return View(db.TblEventBookings.ToList());
+			TempData["Name"] = cont.HttpContext.Session.GetString("name");
+			TempData["Email"] = cont.HttpContext.Session.GetString("email");
+			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+
+			return View();
 		}
         [HttpGet]
 		public IActionResult Login()
@@ -65,7 +73,12 @@ namespace CMS.Controllers
 				var session_email = cont.HttpContext.Session.GetString("email");
 				var session_id = cont.HttpContext.Session.GetInt32("session_id");
 
-					return RedirectToAction("Index", "Home");
+                TempData["Name"] = session_name;
+                TempData["Email"] = session_email;
+                TempData["id"] = session_id;
+
+
+                    return RedirectToAction("Index", "Home");
 
 			}
 			else
@@ -73,6 +86,11 @@ namespace CMS.Controllers
 				return RedirectToAction("ErrorPage");
 			}
 			return View();
+		}
+		public IActionResult Logout()
+		{
+			cont.HttpContext.Session.Clear();
+			return RedirectToAction("Index");
 		}
 		public IActionResult Aboutus()
         {
