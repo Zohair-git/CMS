@@ -34,9 +34,9 @@ namespace CMS.Controllers
 			return View(db.TblUpcomingEvents.ToList());
 		}
 
-		public IActionResult EventBookingForm()
+		public IActionResult EventBookingForm(int id)
 		{
-			return View();
+			return View(db.TblEventBookings.ToList());
 		}
         [HttpGet]
 		public IActionResult Login()
