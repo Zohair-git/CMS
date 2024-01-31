@@ -2,7 +2,7 @@
 
     Layout = "_UserLayout";
 }
-
+@model IEnumerable<TblProduct>;
 <main>
 	<div class="hero_home version_1">
 		<div class="content">
@@ -76,19 +76,19 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet pellentesque nulla, eget egestas urna ullamcorper vitae.</p>
 			</div>
 			<div id="reccomended" class="owl-carousel owl-theme">
-				
+				@foreach(var product in Model){
 				<div class="item">
-					<a asp-action="ProductDetails" asp-controller="Home">
-						
+					<a asp-action="ProductDetails" asp-route-id="@product.Id" asp-controller="Home">
+							
 						<div class="title">
-							<h4>New Product Name<em>New Product Price</em></h4>
-						</div><img src="http://via.placeholder.com/350x500.jpg" alt="">
+								<h4>@product.ProductName<em>@product.Saleprice <span style="text-decoration:line-through;">@product.Price</span></em></h4>
+						</div><img src="~/@product.Image" alt="">
 					</a>
 				</div>
-				
+				}
 			</div>
 			
-			<p class="text-center"><a asp-action="ProductsPage" asp-controller="Home" class="btn_1 medium mt-5">All Products</a></p>
+			<p class="text-center"><a asp-action="ProductsPage" asp-controller="Home" asp-route-category="All" class="btn_1 medium mt-5">All Products</a></p>
 			<!-- /carousel -->
 		</div>
 		<!-- /container -->

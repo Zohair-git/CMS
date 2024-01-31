@@ -1,12 +1,15 @@
 ﻿@{
 	Layout = "_UserLayout";
 }
+@model IEnumerable<TblProduct>
+
+@if(ViewBag.category == "scientific"){
 <main>
    <div id="results">
        <div class="container">
            <div class="row">
                <div class="col-md-6">
-                   <h4><strong>Showing 10</strong> of 140 results</h4>
+						<h4><strong>Found</strong> @ViewBag.ScientificProductsCount results</h4>
                </div>
                <div class="col-md-6">
                     <div class="search_bar_list">
@@ -27,22 +30,22 @@
 				<li>
 					<h6>Type</h6>
 					<div class="switch-field">
-						<input type="radio" id="all" name="type_patient" value="all" checked>
+						<input type="radio" id="all" name="all_products" value="all" >
 						<label for="all">All</label>
-						<input type="radio" id="doctors" name="type_patient" value="doctors">
-						<label for="doctors">Doctors</label>
-						<input type="radio" id="clinics" name="type_patient" value="clinics">
-						<label for="clinics">Clinics</label>
+						<input type="radio" id="doctors" name="scientific_products" value="doctors" checked>
+						<label for="doctors">Scientific Machines</label>
+						<input type="radio" id="clinics" name="medicines_products" value="clinics">
+						<label for="clinics">Medicines</label>
 					</div>
 				</li>
 			
 				<li>
 					<h6>Sort by</h6>
 					<select name="orderby" class="selectbox">
-					<option value="Closest">Closest</option>
-					<option value="Best rated">Best rated</option>
-					<option value="Men">Men</option>
-					<option value="Women">Women</option>
+					<option value="Ascending">A-Z</option>
+					<option value="Descending">Z-A</option>
+					<option value="Cheapest">Cheapest</option>
+					<option value="Expensive">Expensive</option>
 					</select>
 				</li>
 			</ul>
@@ -50,65 +53,341 @@
 		<!-- /container -->
 	</div>
 	<!-- /filters -->
-	   
-	<div class="container margin_60_35">
-		<div class="row">
-			<div class="col-lg-8">
+		@if (ViewBag.ScientificProductsCount > 0)
+		{
+			<div class="container margin_60_35">
 				<div class="row">
-					<div class="col-md-6">
-						<div class="box_list wow fadeIn">
-							<a href="#0" class="wish_bt"></a>
-							<figure>
-								<a asp-action="ProductDetails" asp-controller="Home"><img src="http://via.placeholder.com/565x565.jpg" class="img-fluid" alt="">
-									<div class="preview"><span>Read more</span></div>
-								</a>
-							</figure>
-							<div class="wrapper">
-								<small>Psicologist</small>
-								<h3>Dr. Sickman</h3>
+					<div class="col-lg-12">
+						<div class="row">
+							@foreach (var products in Model)
+							{
+								<div class="col-md-4">
 
-								<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cuodo....</p>
-								<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
-								<a href="badges.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Badge Level" class="badge_list_1"><img src="img/badges/badge_1.svg" width="15" height="15" alt=""></a>
-							</div>
-							<ul>
-								<li><a href="#0" onclick="onHtmlClick('Doctors', 0)"><i class="icon_pin_alt"></i>View on map</a></li>
-								<li><a href="https://www.google.com/maps/dir//Assistance+%E2%80%93+H%C3%B4pitaux+De+Paris,+3+Avenue+Victoria,+75004+Paris,+Francia/48.8606548,2.3348734,14z/data=!4m15!1m6!3m5!1s0x0:0xa6a9af76b1e2d899!2sAssistance+%E2%80%93+H%C3%B4pitaux+De+Paris!8m2!3d48.8568376!4d2.3504305!4m7!1m0!1m5!1m1!1s0x47e67031f8c20147:0xa6a9af76b1e2d899!2m2!1d2.3504327!2d48.8568361" target="_blank"><i class="icon_pin_alt"></i>Directions</a></li>
-								<li><a href="detail-page.html">Buy now</a></li>
-							</ul>
+									<div class="box_list wow fadeIn">
+										@*<a href="#0" class="wish_bt"></a>*@
+										<figure>
+											<a asp-action="ProductDetails" asp-controller="Home" asp-route-id="@products.Id"><img src="~/@products.Image" class="img-fluid" alt="">
+												<div class="preview"><span>Read more</span></div>
+											</a>
+										</figure>
+										<div class="wrapper">
+											<small>@products.Category</small>
+											<h3>@products.ProductName</h3>
+
+											<p>@products.Description</p>
+											<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
+										</div>
+										<ul>
+											<li><a href="#0" onclick="onHtmlClick('Doctors', 0)"><i class="icon_pin_alt"></i>View on map</a></li>
+											<li><a href="https://www.google.com/maps/dir//Assistance+%E2%80%93+H%C3%B4pitaux+De+Paris,+3+Avenue+Victoria,+75004+Paris,+Francia/48.8606548,2.3348734,14z/data=!4m15!1m6!3m5!1s0x0:0xa6a9af76b1e2d899!2sAssistance+%E2%80%93+H%C3%B4pitaux+De+Paris!8m2!3d48.8568376!4d2.3504305!4m7!1m0!1m5!1m1!1s0x47e67031f8c20147:0xa6a9af76b1e2d899!2m2!1d2.3504327!2d48.8568361" target="_blank"><i class="icon_pin_alt"></i>Directions</a></li>
+											<li><a href="detail-page.html">Buy now</a></li>
+										</ul>
+									</div>
+								</div>
+							}
+							<!-- /box_list -->
+
+
 						</div>
+						<!-- /row -->
+
+						<nav aria-label="" class="add_top_20">
+							<ul class="pagination pagination-sm">
+								<li class="page-item disabled">
+									<a class="page-link" href="#" tabindex="-1">Previous</a>
+								</li>
+								<li class="page-item active"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item">
+									<a class="page-link" href="#">Next</a>
+								</li>
+							</ul>
+						</nav>
+						<!-- /pagination -->
 					</div>
-					<!-- /box_list -->
+					<!-- /col -->
 
-
-				</div>
-				<!-- /row -->
-
-				<nav aria-label="" class="add_top_20">
-					<ul class="pagination pagination-sm">
-						<li class="page-item disabled">
-							<a class="page-link" href="#" tabindex="-1">Previous</a>
-						</li>
-						<li class="page-item active"><a class="page-link" href="#">1</a></li>
-						<li class="page-item"><a class="page-link" href="#">2</a></li>
-						<li class="page-item"><a class="page-link" href="#">3</a></li>
-						<li class="page-item">
-							<a class="page-link" href="#">Next</a>
-						</li>
-					</ul>
-				</nav>
-				<!-- /pagination -->
-			</div>
-			<!-- /col -->
-			
+					@*	
 			<aside class="col-lg-4" id="sidebar">
 				<div id="map_listing" class="normal_list">
 				</div>
-			</aside>
-			<!-- /aside -->
-			
-		</div>
-		<!-- /row -->
-	</div>
-	<!-- /container -->
+			</aside>*@
+					<!-- /aside -->
+
+				</div>
+				<!-- /row -->
+			</div>
+		}
+		else
+		{
+			<div class="container margin_60_35">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3>No Results Found</h3>
+						</div>
+						</div>
+						</div>
+		}
+		<!-- /container -->
 	</main>
+	}
+else if(ViewBag.category == "medicine")
+{
+<main>
+   <div id="results">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6">
+						<h4><strong>Found</strong> @ViewBag.MedicineProductsCount results</h4>
+               </div>
+               <div class="col-md-6">
+                    <div class="search_bar_list">
+                    <input type="text" class="form-control" placeholder="Ex. Specialist, Name, Doctor...">
+                    <input type="submit" value="Search">
+                </div>
+               </div>
+           </div>
+           <!-- /row -->
+       </div>
+       <!-- /container -->
+   </div>
+   <!-- /results -->
+   
+   <div class="filters_listing">
+		<div class="container">
+			<ul class="clearfix">
+				<li>
+					<h6>Type</h6>
+					<div class="switch-field">
+						<input type="radio" id="all" name="all_products" value="all" >
+						<label for="all">All</label>
+						<input type="radio" id="doctors" name="scientific_products" value="doctors">
+						<label for="doctors">Scientific Machines</label>
+							<input type="radio" id="clinics" name="medicines_products" value="clinics" checked>
+						<label for="clinics">Medicines</label>
+					</div>
+				</li>
+			
+				<li>
+					<h6>Sort by</h6>
+					<select name="orderby" class="selectbox">
+					<option value="A-Z">A-Z</option>
+					<option value="Z-A">Z-A</option>
+					<option value="Cheapest">Cheapest</option>
+					<option value="Expensive">Expensive</option>
+					</select>
+				</li>
+			</ul>
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /filters -->
+		@if (ViewBag.MedicineProductsCount > 0)
+		{
+			<div class="container margin_60_35">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="row">
+							@foreach (var products in Model)
+							{
+								<div class="col-md-4">
+
+									<div class="box_list wow fadeIn">
+										<a href="#0" class="wish_bt"></a>
+										<figure>
+											<a asp-action="ProductDetails" asp-controller="Home" asp-route-id="@products.Id"><img src="~/@products.Image" class="img-fluid" alt="">
+												<div class="preview"><span>Read more</span></div>
+											</a>
+										</figure>
+										<div class="wrapper">
+											<small>@products.Category</small>
+											<h3>@products.ProductName</h3>
+
+											<p>@products.Description</p>
+											<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
+										</div>
+										<ul>
+											<li><a href="#0" onclick="onHtmlClick('Doctors', 0)"><i class="icon_pin_alt"></i>View on map</a></li>
+											<li><a href="https://www.google.com/maps/dir//Assistance+%E2%80%93+H%C3%B4pitaux+De+Paris,+3+Avenue+Victoria,+75004+Paris,+Francia/48.8606548,2.3348734,14z/data=!4m15!1m6!3m5!1s0x0:0xa6a9af76b1e2d899!2sAssistance+%E2%80%93+H%C3%B4pitaux+De+Paris!8m2!3d48.8568376!4d2.3504305!4m7!1m0!1m5!1m1!1s0x47e67031f8c20147:0xa6a9af76b1e2d899!2m2!1d2.3504327!2d48.8568361" target="_blank"><i class="icon_pin_alt"></i>Directions</a></li>
+											<li><a href="detail-page.html">Buy now</a></li>
+										</ul>
+									</div>
+								</div>
+							}
+							<!-- /box_list -->
+
+
+						</div>
+						<!-- /row -->
+
+						<nav aria-label="" class="add_top_20">
+							<ul class="pagination pagination-sm">
+								<li class="page-item disabled">
+									<a class="page-link" href="#" tabindex="-1">Previous</a>
+								</li>
+								<li class="page-item active"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item">
+									<a class="page-link" href="#">Next</a>
+								</li>
+							</ul>
+						</nav>
+						<!-- /pagination -->
+					</div>
+					<!-- /col -->
+
+					@*	
+			<aside class="col-lg-4" id="sidebar">
+				<div id="map_listing" class="normal_list">
+				</div>
+			</aside>*@
+					<!-- /aside -->
+
+				</div>
+				<!-- /row -->
+			</div>
+		}
+		else
+		{
+				<div class="container margin_60_35">
+				<div class="row">
+				<div class="col-lg-12">
+						<h3>No Results Found</h3>
+				</div>
+				</div>
+			    </div>
+		}
+		<!-- /container -->
+	</main>
+	}
+	else if(ViewBag.category == "All"){
+	<main>
+		<div id="results">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h4><strong>Found</strong> @ViewBag.AllProductsCount results</h4>
+					</div>
+					<div class="col-md-6">
+						<div class="search_bar_list">
+							<input type="text" class="form-control" placeholder="Ex. Specialist, Name, Doctor...">
+							<input type="submit" value="Search">
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /results -->
+
+		<div class="filters_listing">
+			<div class="container">
+				<ul class="clearfix">
+					<li>
+						<h6>Type</h6>
+						<div class="switch-field">
+							<input type="radio" id="all" name="all_products" value="all" checked>
+							<label for="all">All</label>
+							<input type="radio" id="doctors" name="scientific_products" value="doctors">
+							<label for="doctors">Scientific Machines</label>
+							<input type="radio" id="clinics" name="medicines_products" value="clinics">
+							<label for="clinics">Medicines</label>
+						</div>
+					</li>
+
+					<li>
+						<h6>Sort by</h6>
+						<select name="orderby" class="selectbox">
+							<option value="A-Z">A-Z</option>
+							<option value="Z-A">Z-A</option>
+							<option value="Cheapest">Cheapest</option>
+							<option value="Expensive">Expensive</option>
+						</select>
+					</li>
+				</ul>
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /filters -->
+		@if (ViewBag.AllProductsCount > 0)
+		{
+			<div class="container margin_60_35">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="row">
+							@foreach (var products in ViewBag.AllProducts)
+							{
+								<div class="col-md-4">
+
+									<div class="box_list wow fadeIn">
+										<a href="#0" class="wish_bt"></a>
+										<figure>
+											<a asp-action="ProductDetails" asp-controller="Home" asp-route-id="@products.Id">
+												<img src="~/@products.Image" class="img-fluid" alt="">
+												<div class="preview"><span>Read more</span></div>
+											</a>
+										</figure>
+										<div class="wrapper">
+											<small>@products.Category</small>
+											<h3>@products.ProductName</h3>
+
+											<p>@products.Description</p>
+											<span class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></span>
+										</div>
+										<ul>
+											<li><a href="#0" onclick="onHtmlClick('Doctors', 0)"><i class="icon_pin_alt"></i>View on map</a></li>
+											<li><a href="https://www.google.com/maps/dir//Assistance+%E2%80%93+H%C3%B4pitaux+De+Paris,+3+Avenue+Victoria,+75004+Paris,+Francia/48.8606548,2.3348734,14z/data=!4m15!1m6!3m5!1s0x0:0xa6a9af76b1e2d899!2sAssistance+%E2%80%93+H%C3%B4pitaux+De+Paris!8m2!3d48.8568376!4d2.3504305!4m7!1m0!1m5!1m1!1s0x47e67031f8c20147:0xa6a9af76b1e2d899!2m2!1d2.3504327!2d48.8568361" target="_blank"><i class="icon_pin_alt"></i>Directions</a></li>
+											<li><a href="detail-page.html">Buy now</a></li>
+										</ul>
+									</div>
+								</div>
+							}
+							<!-- /box_list -->
+
+
+						</div>
+						<!-- /row -->
+
+						<nav aria-label="" class="add_top_20">
+							<ul class="pagination pagination-sm">
+								<li class="page-item disabled">
+									<a class="page-link" href="#" tabindex="-1">Previous</a>
+								</li>
+								<li class="page-item active"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item">
+									<a class="page-link" href="#">Next</a>
+								</li>
+							</ul>
+						</nav>
+						<!-- /pagination -->
+					</div>
+					<!-- /col -->
+					@*
+			<aside class="col-lg-4" id="sidebar">
+			<div id="map_listing" class="normal_list">
+			</div>
+			</aside>*@
+					<!-- /aside -->
+
+				</div>
+				<!-- /row -->
+			</div>
+		}
+		else
+		{
+			<div class="container margin_60_35">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3>No Results Found</h3>
+					</div>
+				</div>
+			</div>
+		}
+		<!-- /container -->
+	</main>
+	}

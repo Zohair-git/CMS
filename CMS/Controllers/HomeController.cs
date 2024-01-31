@@ -24,10 +24,10 @@ namespace CMS.Controllers
             this.cont = cont;
 
         }
-
+		[HttpGet]
         public IActionResult Index()
         {
-            return View();
+            return View(db.TblProducts.ToList());
         }
 		public IActionResult ShowEvents()
 		{
@@ -142,14 +142,26 @@ namespace CMS.Controllers
             }
             return View();
 		}
-		public IActionResult ProductsPage()
+		[HttpGet]
+		public IActionResult ProductsPage(string category)
 		{
-			return View();
+			ViewBag.category = category;
+			ViewBag.AllProducts = db.TblProducts.ToList();
+			ViewBag.MedicineProductsCount = db.TblProducts.Where(x=>x.Category == "medicine").Count();
+			ViewBag.ScientificProductsCount = db.TblProducts.Where(x=>x.Category == "scientific").Count();
+			ViewBag.AllProductsCount = db.TblProducts.Count();
+			var fetchproducts = db.TblProducts.Where(x=>x.Category == category).Take(9).ToList();
+			return View(fetchproducts);
 		}
 		public IActionResult Confirmation()
 		{
 			return View();
 		}
+		public IActionResult SubmitReview()
+		{
+			return View();
+		}
+		
 		public IActionResult ProductDetails()
 		{
 			return View();

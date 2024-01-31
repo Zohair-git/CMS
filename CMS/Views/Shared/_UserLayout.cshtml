@@ -67,14 +67,25 @@
 							
 							<li><a asp-action="Aboutus" asp-controller="Home">About us</a></li>
 							<li><a asp-action="Contactus" asp-controller="Home">Contact us</a></li>
-							@if(TempData["Name"] == null){
+							
+							<li class="submenu">
+								<a asp-action="ProductsPage" asp-controller="Home" asp-route-category="All" class="show-submenu">Products<i class="icon-down-open-mini"></i></a>
+								<ul>
+									<li><a asp-action="ProductsPage" asp-controller="Home" asp-route-category="scientific">Scientific Machinery</a></li>
+									<li><a asp-controller="Home" asp-action="ProductsPage" asp-route-category="medicine">Medicines</a></li>
+								
+								</ul>
+							</li>
+							<li><a asp-action="ShowEvents" asp-controller="Home">Events</a></li>
+							@if (TempData["Name"] == null)
+							{
 								<li><a asp-action="Login" asp-controller="Home">Login</a></li>
 								<li><a asp-action="Register" asp-controller="Home">Register</a></li>
-							}else{
-							<li><a asp-action="Logout" asp-controller="Home">Logout</a></li>
 							}
-							<li><a asp-action="ShowEvents" asp-controller="Home">Events</a></li>
-
+							else
+							{
+								<li><a asp-action="Logout" asp-controller="Home">Logout</a></li>
+							}
 						</ul>
 					</div>
 					<!-- /main-menu -->

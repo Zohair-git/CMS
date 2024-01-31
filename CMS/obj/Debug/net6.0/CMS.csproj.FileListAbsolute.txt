@@ -2193,3 +2193,11 @@ C:\Users\asp\Documents\e-project\CMS\CMS\obj\Debug\net6.0\refint\CMS.dll
 C:\Users\asp\Documents\e-project\CMS\CMS\obj\Debug\net6.0\CMS.pdb
 C:\Users\asp\Documents\e-project\CMS\CMS\obj\Debug\net6.0\CMS.genruntimeconfig.cache
 C:\Users\asp\Documents\e-project\CMS\CMS\obj\Debug\net6.0\ref\CMS.dll
+C:\Users\money\OneDrive\Desktop\CMS\CMS\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\money\OneDrive\Desktop\CMS\CMS\bin\Debug\net6.0\MailKit.dll
+C:\Users\money\OneDrive\Desktop\CMS\CMS\bin\Debug\net6.0\MimeKit.dll
+C:\Users\money\OneDrive\Desktop\CMS\CMS\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\money\OneDrive\Desktop\CMS\CMS\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\money\OneDrive\Desktop\CMS\CMS\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\money\OneDrive\Desktop\CMS\CMS\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\money\OneDrive\Desktop\CMS\CMS\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
