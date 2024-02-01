@@ -7,6 +7,7 @@
         public IEnumerable<TblClientRegister> client_register { get; set; }	
 
 		public IEnumerable<TblUpcomingEvent> upcoming_events {get; set; }
+		public IEnumerable<TblImage> Images_list {get; set; }
 
         public TblProduct productss { get; set; }
         public TblImage imagess { get; set; }
