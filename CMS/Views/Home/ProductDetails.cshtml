@@ -1,6 +1,6 @@
 ﻿@{
-	Layout = "_UserLayout";
-	int counter = 0;
+
+    Layout = "_UserLayout";
 }
 @model CMS.Models.AllTables;
 <main>
@@ -75,23 +75,23 @@
 						<div class="wrapper_indent">
 								<div class="row">
 							@foreach(var images in Model.Images_list){
-
-									  <div class="@(counter % 2 == 0 ? "col-lg-6" : "col-lg-4")">
-            <img src="~/@images.ImageName" width="@(counter % 2 == 0 ? "300px" : "180px")" />
-        </div>
-
-        @if (counter % 2 == 1 && counter != Model.imagess.Count - 1)
-        {
-            @:</div><div class="row">
-        }
-
-        counter++;
-								} 
+									<div class="col-lg-6">
+										<img src="~/@images.ImageName" width="300px"/>
 									</div>
-							
+									<div class="col-lg-6">
+										<img src="~/@images.ImageName" width="300px" />
+									</div>
 									
-								
-							
+									<div class="col-lg-4">
+										<img src="~/@images.ImageName" width="180px" />
+									</div>
+									<div class="col-lg-4">
+										<img src="~/@images.ImageName" width="180px" />
+									</div>
+									<div class="col-lg-4">
+										<img src="~/@images.ImageName" width="180px" />
+									</div>
+								}
 								</div>
 							
 						</div>
