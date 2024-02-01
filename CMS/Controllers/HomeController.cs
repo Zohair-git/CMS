@@ -37,22 +37,25 @@ namespace CMS.Controllers
 
 			return View(db.TblUpcomingEvents.ToList());
 		}
+       
 
+
+        [HttpGet]
 		public IActionResult EventBookingForm(int id)
 		{
-			var model = db.TblUpcomingEvents.Where(x => x.Id == id).ToList();
-			var usermodel = db.TblClientRegisters.Where(y => y.Name == "1").ToList();
+			TempData["Name"] = cont.HttpContext.Session.GetString("name");
+			TempData["Email"] = cont.HttpContext.Session.GetString("email");
+			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+
+			TblUpcomingEvent model = db.TblUpcomingEvents.FirstOrDefault(x => x.Id == id);
+			return View(model);
+
+        }
 
 
-			
 
-			//var tbl = db.TblEventBookings.Include(a => a.User).Include(a => a.Event).ToList();
 
-			//var sdfds = model;
-			//var ffsdf = usermodel;
-			//var adssd = tbl;
-			return View();
-		}
+
         [HttpGet]
 		public IActionResult Login()
         {

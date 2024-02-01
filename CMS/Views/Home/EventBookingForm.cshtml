@@ -1,7 +1,7 @@
 ﻿@{
 	Layout = "_UserLayout";
 }
-
+@model CMS.Models.TblUpcomingEvent
 
 <main>
 	<div id="breadcrumb">
@@ -59,20 +59,25 @@
 						</div>
 						<div class="summary">
 							<ul>
-								<li>Name: &nbsp; <strong class="float-right"></strong></li>
-								<li>Email: &nbsp; <strong class="float-right">fxgf</strong></li>
-								<li>Topic: &nbsp; <strong class="float-right">julia Jhones</strong></li>
-								<li>Date: &nbsp; <strong class="float-right">11/12/2017</strong></li>
-								<li>Time: &nbsp; <strong class="float-right">10.30 am</strong></li>
-								<li>Faculty: &nbsp; <strong class="float-right">Dr. julia Jhones</strong></li>
+								<li>Name: &nbsp; <strong class="float-right">@TempData["Name"]</strong></li>
+								<li>Email: &nbsp; <strong class="float-right">@TempData["Email"]</strong></li>
+								<li>Topic: &nbsp; <strong class="float-right">@Model.Topic</strong></li>
+								<li>Date: &nbsp; <strong class="float-right">@Model.Date</strong></li>
+								<li>Time: &nbsp; <strong class="float-right">@Model.Time</strong></li>
+								<li>Faculty: &nbsp; <strong class="float-right">@Model.Faculty</strong></li>
+								<input type="hidden" value="@TempData["id"]" />
+								<input type="hidden" value="@Model.Id" />
+
+
+
 							</ul>
 						</div>
 						<ul class="treatments checkout clearfix">
 							<li>
-								Entry Fee: &nbsp; <strong class="float-right">$55</strong>
+								Entry Fee: &nbsp; <strong class="float-right">@Model.EntryFee</strong>
 							</li>
 							<li class="total">
-								Total <strong class="float-right">$110</strong>
+								Total <strong class="float-right">@Model.EntryFee</strong>
 							</li>
 						</ul>
 						<!-- <hr> -->

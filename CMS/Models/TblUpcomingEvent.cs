@@ -21,6 +21,7 @@ namespace CMS.Models
         public int? EntryFee { get; set; }
         public string? Location { get; set; }
 
+
         public virtual ICollection<TblEventBooking> TblEventBookings { get; set; }
     }
 }

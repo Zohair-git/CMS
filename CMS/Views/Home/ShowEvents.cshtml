@@ -60,9 +60,12 @@
 	</div>
 	<!-- /filters -->
 
+
+
+
 	<div class="container margin_60_35">
-		<div class="row">
-			<div class="col-lg-7">
+		<div class="row ">
+			<div class="col">
 
 
 			@foreach (var item in Model)
@@ -75,7 +78,6 @@
 					</figure>
 					<small>@item.Faculty</small>
 					<h3>@item.Topic</h3>
-						<p>@item.Details</p>
 						<h6>Date: <span>@item.Date</span> </h6>
 						<h6>Time:  @item.Time</h6>
 						<h6>Location:  @item.Location</h6>
@@ -83,9 +85,19 @@
 					<ul>
 						<li><a class="btn_listing">View on Map</a></li>
 							<li><a>Entry Fee:  @item.EntryFee</a></li>
-						<li><a asp-action="EventBookingForm" asp-controller="Home" asp-route-id=@item.Id>Book now</a></li>
+							@if (TempData["Name"] == null)
+							{
+								<li><a asp-action="Login" asp-controller="Home" asp-route-id=@item.Id>Book now</a></li>
+							}
+							else
+							{
+								<li><a asp-action="EventBookingForm" asp-controller="Home" asp-route-id=@item.Id>Book now</a></li>
+
+							}
+
 					</ul>
 				</div>
+
 
 				}
 				<nav aria-label="" class="add_top_20">
@@ -105,11 +117,6 @@
 			</div>
 			<!-- /col -->
 
-			<aside class="col-lg-5" id="sidebar">
-				<div id="map_listing" class="normal_list">
-				</div>
-			</aside>
-			<!-- /aside -->
 
 		</div>
 		<!-- /row -->
