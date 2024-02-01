@@ -2,6 +2,7 @@
 
     Layout = "_UserLayout";
 }
+@model CMS.Models.AllTables;
 <main>
 		<div id="breadcrumb">
 			<div class="container">
@@ -32,12 +33,12 @@
 								<div class="row">
 									<div class="col-lg-5 col-md-4">
 										<figure>
-											<img src="http://via.placeholder.com/565x565.jpg" alt="" class="img-fluid">
+											<img src="~/@Model.productss.Image" alt="" class="img-fluid">
 										</figure>
 									</div>
 									<div class="col-lg-7 col-md-8">
-										<small>Primary care - Internist</small>
-										<h1>DR. Julia Jhones</h1>
+										<small>@Model.productss.Category</small>
+										<h1>@Model.productss.ProductName</h1>
 										<span class="rating">
 											<i class="icon_star voted"></i>
 											<i class="icon_star voted"></i>
@@ -53,10 +54,10 @@
 										<ul class="contacts">
 											<li>
 
-											<h3>600 <i class="pe-7s-cash"></i></h3>
+											<h3>@Model.productss.Saleprice <i class="pe-7s-cash"></i></h3>
 											</li>
 											<li>
-											<h4 class="px-1"><span style="text-decoration:line-through;">550</span> <i class="pe-7s-cash mx-1"></i></h4>
+											<h4 class="px-1"><span style="text-decoration:line-through;">@Model.productss.Price</span> <i class="pe-7s-cash mx-1"></i></h4>
 												
 											</li>
 											
@@ -64,7 +65,7 @@
 									</div>
 								</div>
 							</div>
-
+							
 						<hr>
 
 						<div class="indent_title_in">
@@ -72,25 +73,25 @@
 							<h3>Product Images</h3>
 						</div>
 						<div class="wrapper_indent">
-						
 								<div class="row">
+							@foreach(var images in Model.Images_list){
 									<div class="col-lg-6">
-										<img src="~/myImages/038f2f17-24a2-458b-933e-2b3b0b05c978Stethoscope-2.png" width="300px"/>
+										<img src="~/@images.ImageName" width="300px"/>
 									</div>
 									<div class="col-lg-6">
-										<img src="~/myImages/038f2f17-24a2-458b-933e-2b3b0b05c978Stethoscope-2.png" width="300px" />
+										<img src="~/@images.ImageName" width="300px" />
 									</div>
-								</div>
-								<div class="row">
+									
 									<div class="col-lg-4">
-										<img src="~/myImages/038f2f17-24a2-458b-933e-2b3b0b05c978Stethoscope-2.png" width="180px" />
-									</div>
-									<div class="col-lg-4">
-										<img src="~/myImages/038f2f17-24a2-458b-933e-2b3b0b05c978Stethoscope-2.png" width="180px" />
+										<img src="~/@images.ImageName" width="180px" />
 									</div>
 									<div class="col-lg-4">
-										<img src="~/myImages/038f2f17-24a2-458b-933e-2b3b0b05c978Stethoscope-2.png" width="180px" />
+										<img src="~/@images.ImageName" width="180px" />
 									</div>
+									<div class="col-lg-4">
+										<img src="~/@images.ImageName" width="180px" />
+									</div>
+								}
 								</div>
 							
 						</div>
@@ -105,7 +106,19 @@
 								<h3>Description</h3>
 							</div>
 							<div class="wrapper_indent">
-								<p>Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Nullam mollis. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapi.</p>
+								<p class="fs-6">@Model.productss.Description</p>
+								
+							</div>
+							<!--  End wrapper indent -->	<!-- /wrapper indent -->
+
+							<hr>
+
+							<div class="indent_title_in">
+							<i class="pe-7s-portfolio"></i>
+								<h3>Company</h3>
+							</div>
+							<div class="wrapper_indent">
+								<p class="fs-6">@Model.productss.CompanyName</p>
 								
 							</div>
 							<!--  End wrapper indent -->
@@ -117,6 +130,7 @@
 						</div>
 						<!-- /section_1 -->
 					</div>
+					
 					<!-- /box_general -->
 
 					<div id="section_2">
@@ -223,16 +237,18 @@
 							
 							</div>
 							<ul class="treatments clearfix">
-							
+							@foreach(var items in Model.product_list){
 							<!-- /row -->
+							 <a asp-action="ProductDetails" asp-controller="Home" asp-route-id="@items.Id">
 								<li>
-										<label for="visit1" class="css-label">
-								<img src="~/myImages/038f2f17-24a2-458b-933e-2b3b0b05c978Stethoscope-2.png" style="border: 2px solid none; border-radius:10px" width="70px" height="70px" />
-								&nbsp;&nbsp; Back Pain visit <span class="px-4 mx-4">$55</span>
+								<label for="visit1" class="css-label">
+								<img src="~/@items.Image" style="border: 2px solid none; border-radius:10px" width="70px" height="70px" />
+									&nbsp;&nbsp; @items.ProductName <span class="px-3 mx-3">@items.Saleprice <i class="pe-7s-cash"></i></span>
 							</label>
 									
 								</li>
-								
+							</a>
+							}
 							</ul>
 						
 						

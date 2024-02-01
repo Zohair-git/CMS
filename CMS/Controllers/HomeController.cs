@@ -168,10 +168,22 @@ namespace CMS.Controllers
 		{
 			return View();
 		}
-		
-		public IActionResult ProductDetails()
+		[HttpGet]
+		public IActionResult ProductDetails(int Id)
 		{
-			return View();
+			AllTables main_model = new AllTables()
+			{
+				product_list = db.TblProducts.Take(4).ToList(),
+			client_register = db.TblClientRegisters.ToList(),
+			upcoming_events = db.TblUpcomingEvents.ToList(),
+			Images_list = db.TblImages.Where(x => x.PId == Id).ToList(),
+			productss = db.TblProducts.FirstOrDefault(x => x.Id == Id),
+			imagess = db.TblImages.FirstOrDefault(x => x.PId == Id),
+			clientRegister = new TblClientRegister(),
+			upcomingEvent = new TblUpcomingEvent(),
+			bookingss = new TblEventBooking(),
+			};
+			return View(main_model);
 		}
 
 		public IActionResult Privacy()
