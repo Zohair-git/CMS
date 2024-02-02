@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using MimeKit;
 
+
 namespace CMS.Controllers
 {
     public class HomeController : Controller
@@ -51,12 +52,51 @@ namespace CMS.Controllers
 			return View(model);
 
         }
+		[HttpPost]
+		public IActionResult EventBookingForm(TblEventBooking book, IFormFile img, int userid, int eventid)
+		{
+			if (img != null && img.Length > 0)
+			{
+				var fileExt = System.IO.Path.GetExtension(img.FileName).Substring(1);
+
+				var random = Path.GetFileName(img.FileName);
+
+				var FileName = Guid.NewGuid() + random;
+
+				string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/TransactionImages");
+
+				if (!Directory.Exists(imgFolder))
+				{
+					Directory.CreateDirectory(imgFolder);
+				}
+				string filepath = Path.Combine(imgFolder, FileName);
+				using (var stream = new FileStream(filepath, FileMode.Create))
+				{
+					img.CopyTo(stream);
+				}
+				var dbAddress = Path.Combine("TransactionImages", FileName);
+				book.Img = dbAddress;
+				book.EventId = eventid;
+				book.UserId = userid;
 
 
 
 
+				// Save event data to tbl_event_booking
+				db.TblEventBookings.Add(book);
+				db.SaveChanges();
+				return RedirectToAction("Confirmation");
 
-        [HttpGet]
+			}
+
+			return View();
+
+		}
+
+
+
+
+		[HttpGet]
 		public IActionResult Login()
         {
             return View();

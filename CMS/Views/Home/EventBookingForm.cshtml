@@ -37,15 +37,20 @@
 
 							</div>
 						</div>
+					<form>
 						<div class="row">
 							<div class="col-md-12 col-sm-12">
 								<div class="form-group">
 									<label>Transaction Image</label>
-									<input type="file" name="street_1" class="form-control p-2">
+									<input type="file" name="img" class="form-control p-2">
 								</div>
 								<p>Submit the Screen Shot Image of transaction Details </p>
 							</div>
+							<input name="userid" type="hidden" value="@TempData["id"]" />
+							<input name="eventid" type="hidden" value="@Model.Id" />
+							<input type="submit" class="btn_1 full-width" value="Confirm and pay" />
 						</div>
+						</form>
 						<!--End row -->
 					</div>
 				</div>
@@ -53,7 +58,6 @@
 			<!-- /col -->
 			<aside class="col-xl-4 col-lg-4" id="sidebar">
 				<div class="box_general_3 booking">
-					<form>
 						<div class="title">
 							<h3>Your booking</h3>
 						</div>
@@ -65,8 +69,7 @@
 								<li>Date: &nbsp; <strong class="float-right">@Model.Date</strong></li>
 								<li>Time: &nbsp; <strong class="float-right">@Model.Time</strong></li>
 								<li>Faculty: &nbsp; <strong class="float-right">@Model.Faculty</strong></li>
-								<input type="hidden" value="@TempData["id"]" />
-								<input type="hidden" value="@Model.Id" />
+
 
 
 
@@ -81,8 +84,8 @@
 							</li>
 						</ul>
 						<!-- <hr> -->
-						<a href="confirm.html" class="btn_1 full-width">Confirm and pay</a>
-					</form>
+						
+					
 				</div>
 				<!-- /box_general -->
 			</aside>
