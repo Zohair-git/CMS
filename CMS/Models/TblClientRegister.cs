@@ -5,11 +5,6 @@ namespace CMS.Models
 {
     public partial class TblClientRegister
     {
-        public TblClientRegister()
-        {
-            TblEventBookings = new HashSet<TblEventBooking>();
-        }
-
         public int Id { get; set; }
         public string? Name { get; set; }
         public string? Desc { get; set; }
@@ -18,6 +13,5 @@ namespace CMS.Models
         public string? Image { get; set; }
 
         public virtual TblFeedback TblFeedback { get; set; } = null!;
-        public virtual ICollection<TblEventBooking> TblEventBookings { get; set; }
     }
 }

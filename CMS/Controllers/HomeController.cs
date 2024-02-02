@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using MimeKit;
-
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Identity;
 
 namespace CMS.Controllers
 {
@@ -28,7 +28,11 @@ namespace CMS.Controllers
 		[HttpGet]
         public IActionResult Index()
         {
-            return View(db.TblProducts.ToList());
+			TempData["Name"] = cont.HttpContext.Session.GetString("name");
+			TempData["Email"] = cont.HttpContext.Session.GetString("email");
+			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+
+			return View(db.TblProducts.ToList());
         }
 		public IActionResult ShowEvents()
 		{
@@ -74,13 +78,17 @@ namespace CMS.Controllers
 				{
 					img.CopyTo(stream);
 				}
+				
+
+
 				var dbAddress = Path.Combine("TransactionImages", FileName);
 				book.Img = dbAddress;
 				book.EventId = eventid;
 				book.UserId = userid;
+			
 
 
-
+				var abs = "cjdsanc";
 
 				// Save event data to tbl_event_booking
 				db.TblEventBookings.Add(book);
@@ -144,11 +152,19 @@ namespace CMS.Controllers
 		}
 		public IActionResult Aboutus()
         {
-            return View();
+			TempData["Name"] = cont.HttpContext.Session.GetString("name");
+			TempData["Email"] = cont.HttpContext.Session.GetString("email");
+			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+
+			return View();
         } 
         public IActionResult Contactus()
         {
-            return View();
+			TempData["Name"] = cont.HttpContext.Session.GetString("name");
+			TempData["Email"] = cont.HttpContext.Session.GetString("email");
+			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+
+			return View();
         }
         [HttpGet]
 		public IActionResult Register()
@@ -195,6 +211,10 @@ namespace CMS.Controllers
 		[HttpGet]
 		public IActionResult ProductsPage(string category)
 		{
+			TempData["Name"] = cont.HttpContext.Session.GetString("name");
+			TempData["Email"] = cont.HttpContext.Session.GetString("email");
+			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+
 			ViewBag.category = category;
 			ViewBag.AllProducts = db.TblProducts.ToList();
 			ViewBag.MedicineProductsCount = db.TblProducts.Where(x=>x.Category == "medicine").Count();
@@ -205,6 +225,10 @@ namespace CMS.Controllers
 		}
 		public IActionResult Confirmation()
 		{
+			TempData["Name"] = cont.HttpContext.Session.GetString("name");
+			TempData["Email"] = cont.HttpContext.Session.GetString("email");
+			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+
 			return View();
 		}
 		public IActionResult SubmitReview()

@@ -37,7 +37,7 @@
 
 							</div>
 						</div>
-					<form>
+						<form method="post" enctype="multipart/form-data">
 						<div class="row">
 							<div class="col-md-12 col-sm-12">
 								<div class="form-group">
@@ -46,8 +46,10 @@
 								</div>
 								<p>Submit the Screen Shot Image of transaction Details </p>
 							</div>
-							<input name="userid" type="hidden" value="@TempData["id"]" />
-							<input name="eventid" type="hidden" value="@Model.Id" />
+							<input name="userid" type="text" value="@TempData["id"]" />
+								<input name="eventid" type="text" value="@Model.Id" />
+
+							
 							<input type="submit" class="btn_1 full-width" value="Confirm and pay" />
 						</div>
 						</form>
