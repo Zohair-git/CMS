@@ -5,6 +5,11 @@ namespace CMS.Models
 {
     public partial class TblUpcomingEvent
     {
+        public TblUpcomingEvent()
+        {
+            TblEventBookings = new HashSet<TblEventBooking>();
+        }
+
         public int Id { get; set; }
         public string? Topic { get; set; }
         public string? Details { get; set; }
@@ -15,5 +20,7 @@ namespace CMS.Models
         public string? Faculty { get; set; }
         public int? EntryFee { get; set; }
         public string? Location { get; set; }
+
+        public virtual ICollection<TblEventBooking> TblEventBookings { get; set; }
     }
 }

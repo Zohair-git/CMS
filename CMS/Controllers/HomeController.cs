@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using MimeKit;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Identity;
+using NuGet.Protocol;
 
 namespace CMS.Controllers
 {
@@ -46,13 +47,16 @@ namespace CMS.Controllers
 
 
         [HttpGet]
-		public IActionResult EventBookingForm(int id)
+		public IActionResult EventBookingForm( int id)
 		{
 			TempData["Name"] = cont.HttpContext.Session.GetString("name");
 			TempData["Email"] = cont.HttpContext.Session.GetString("email");
 			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
 
-			TblUpcomingEvent model = db.TblUpcomingEvents.FirstOrDefault(x => x.Id == id);
+			var model = db.TblUpcomingEvents.FirstOrDefault(x => x.Id == id);
+
+
+			var sadsa = "sdfd";
 			return View(model);
 
         }
@@ -82,16 +86,23 @@ namespace CMS.Controllers
 
 
 				var dbAddress = Path.Combine("TransactionImages", FileName);
-				book.Img = dbAddress;
-				book.EventId = eventid;
-				book.UserId = userid;
+
+
+				TblEventBooking tbl = new TblEventBooking();
+				tbl.Img = dbAddress;
+				tbl.EventId = eventid;
+				tbl.UserId = userid;
+				tbl.Status = 0;
+			
 			
 
 
-				var abs = "cjdsanc";
+				var abs = tbl;
+
+				var dsd = "fsdf";
 
 				// Save event data to tbl_event_booking
-				db.TblEventBookings.Add(book);
+				db.TblEventBookings.Add(tbl);
 				db.SaveChanges();
 				return RedirectToAction("Confirmation");
 
