@@ -7,6 +7,13 @@
 		<div class="container margin_60_35">
 			<div id="login">
 				<h1>Please login to Findoctor!</h1>
+				@if (TempData["Alertmsg"] != null)
+				{
+					<div class="alert alert-danger">
+						@TempData["Alertmsg"]
+					</div>
+				}
+				
 				<div class="box_form">
 					<form method="post">
 						<div class="form-group">

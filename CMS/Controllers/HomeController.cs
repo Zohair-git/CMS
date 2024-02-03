@@ -128,10 +128,15 @@ namespace CMS.Controllers
 
 			var fetchuser = db.TblClientRegisters.Where(x => x.Email == front_email).ToList();
 
-			var backend_name = fetchuser[0].Name;
+            if (fetchuser.Count > 0)
+            {
+                
+            var backend_name = fetchuser[0].Name;
 			var backend_email = fetchuser[0].Email;
             var backend_id = fetchuser[0].Id;
 			var backend_password = fetchuser[0].Password;
+
+
             if (front_email == backend_email && front_password == backend_password)
 			{
 				cont.HttpContext.Session.SetString("name", backend_name);
@@ -150,10 +155,15 @@ namespace CMS.Controllers
                     return RedirectToAction("Index", "Home");
 
 			}
-			else
+			
+
+          }else if(fetchuser.Count == 0)
 			{
-				return RedirectToAction("ErrorPage");
+				TempData["Alertmsg"] = "No User Found Or Wrong Credential";
+				
 			}
+
+
 			return View();
 		}
 		public IActionResult Logout()
