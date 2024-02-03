@@ -2,6 +2,7 @@
 using CMS.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace CMS.Controllers
 {
@@ -169,9 +170,35 @@ namespace CMS.Controllers
         }
         public IActionResult Bookings()
         {
+            var tbl = _context.TblEventBookings.Include(y => y.User).Include(x => x.Event).Where(x => x.Status == 0).ToList();
+            
+            return View(tbl);
+        }
+        public IActionResult Approve( int id)
+        {
+            var booking = _context.TblEventBookings.FirstOrDefault(x => x.Id == id);
+
+            if (booking != null)
+            {
+                booking.Status = 1;
+                _context.SaveChanges();
+                return RedirectToAction("Bookings");
+            }
+			return View();
+        }
+        public IActionResult Reject(int id)
+        {
+            var booking = _context.TblEventBookings.FirstOrDefault(x => x.Id == id);
+
+            if (booking != null)
+            {
+                booking.Status = 2;
+                _context.SaveChanges();
+                return RedirectToAction("Bookings");
+            }
             return View();
         }
-		public IActionResult RegisteredUser()
+        public IActionResult RegisteredUser()
 		{
 			return View();
 		}

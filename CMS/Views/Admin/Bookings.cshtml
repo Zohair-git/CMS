@@ -2,8 +2,7 @@
 
     Layout = "_AdminLayout";
 }
-
-
+@model IEnumerable<TblEventBooking>
 <div class="content-wrapper">
     <div class="container-fluid">
         <!-- Breadcrumbs-->
@@ -23,14 +22,14 @@
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <thead>
                             <tr>
-                                <th>User ID</th>
-                                <th>U-Name</th>
+
+                                <th>User-Name</th>
                                 <th>Event-Name</th>
                                 <th>Date</th>
                                 <th>Location</th>
                                 <th>Fee Script</th>
-                                <th>Approve</th>
-                                <th>Reject</th>
+                                <th class="text-center">Actions</th>
+                                
                                 
 
 
@@ -38,37 +37,24 @@
 
                             </tr>
                         </thead>
-
+                         @foreach (var tempData in Model)
+                        {
                         <tbody>
                             <tr>
-                                <td>1</td>
-                                <td>Panadol</td>
-                                <td>Edinburgh hhh</td>
-                                <td>21-2-24</td>
-                                <td>2:30</td>
-                                <td> <img src="" alt=""></td>
-                                <td><button class="btn btn-success">Approve</button></td>
-                                <td><button class="btn btn-danger">Reject</button></td>
-                               
-
-                            </tr>
-
-                        </tbody>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Panadol</td>
-                                <td>Edinburgh hhh</td>
-                                <td>21-2-24</td>
-                                <td>2:30</td>
-                                <td> <img src="" alt=""></td>
-                                <td><button class="btn btn-success">Approve</button></td>
-                                <td><button class="btn btn-danger">Reject</button></td>
+                                <td>@tempData.User.Name</td>
+                                <td>@tempData.Event.Topic</td>
+                                <td>@tempData.Event.Date</td>
+                                <td>@tempData.Event.Location</td>
+                                <td class="text-center"> <img src="~/@tempData.Img" width="150" height="100"></td>
+                                    <td class="text-center">
+                                        <a class="btn btn-success" asp-action="Approve" asp-route-id="@tempData.Id">Approve</a>&nbsp;
+                                <a class="btn btn-danger" asp-action="Reject" asp-route-id="@tempData.Id">Reject</a></td>
 
 
                             </tr>
 
                         </tbody>
+                        }
                     </table>
                 </div>
             </div>
@@ -78,3 +64,4 @@
     </div>
     <!-- /container-fluid-->
 </div>
+
