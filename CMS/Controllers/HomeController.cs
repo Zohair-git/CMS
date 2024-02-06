@@ -29,10 +29,24 @@ namespace CMS.Controllers
 		[HttpGet]
         public IActionResult Index()
         {
+
 			TempData["Name"] = cont.HttpContext.Session.GetString("name");
 			TempData["Email"] = cont.HttpContext.Session.GetString("email");
 			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
 
+			var fetchevent = db.TblEventBookings.Where(x => x.UserId == cont.HttpContext.Session.GetInt32("session_id")).ToList();
+
+			if (fetchevent.Count > 0)
+			{
+				var E_uid = fetchevent[0].UserId;
+
+				cont.HttpContext.Session.SetInt32("uid", (int)E_uid);
+
+				
+				TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
+
+
+			}
 			return View(db.TblProducts.ToList());
         }
 		public IActionResult ShowEvents()
@@ -40,6 +54,7 @@ namespace CMS.Controllers
 			TempData["Name"] = cont.HttpContext.Session.GetString("name");
 			TempData["Email"] = cont.HttpContext.Session.GetString("email");
 			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+			TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
 
 			return View(db.TblUpcomingEvents.ToList());
 		}
@@ -52,6 +67,7 @@ namespace CMS.Controllers
 			TempData["Name"] = cont.HttpContext.Session.GetString("name");
 			TempData["Email"] = cont.HttpContext.Session.GetString("email");
 			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+			TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
 
 			var model = db.TblUpcomingEvents.FirstOrDefault(x => x.Id == id);
 
@@ -93,8 +109,8 @@ namespace CMS.Controllers
 				tbl.EventId = eventid;
 				tbl.UserId = userid;
 				tbl.Status = 0;
-			
-			
+
+				
 
 
 				var abs = tbl;
@@ -176,6 +192,7 @@ namespace CMS.Controllers
 			TempData["Name"] = cont.HttpContext.Session.GetString("name");
 			TempData["Email"] = cont.HttpContext.Session.GetString("email");
 			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+			TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
 
 			return View();
         } 
@@ -184,12 +201,30 @@ namespace CMS.Controllers
 			TempData["Name"] = cont.HttpContext.Session.GetString("name");
 			TempData["Email"] = cont.HttpContext.Session.GetString("email");
 			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+			TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
 
 			return View();
         }
-        [HttpGet]
+
+		public IActionResult EventPass()
+		{
+			TempData["Name"] = cont.HttpContext.Session.GetString("name");
+			TempData["Email"] = cont.HttpContext.Session.GetString("email");
+			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+			TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
+
+
+
+			return View();
+			
+
+			
+		}
+
+		[HttpGet]
 		public IActionResult Register()
 		{
+
 			return View();
 		}
         [HttpPost]
@@ -235,6 +270,7 @@ namespace CMS.Controllers
 			TempData["Name"] = cont.HttpContext.Session.GetString("name");
 			TempData["Email"] = cont.HttpContext.Session.GetString("email");
 			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+			TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
 
 			ViewBag.category = category;
 			ViewBag.AllProducts = db.TblProducts.ToList();
@@ -249,6 +285,7 @@ namespace CMS.Controllers
 			TempData["Name"] = cont.HttpContext.Session.GetString("name");
 			TempData["Email"] = cont.HttpContext.Session.GetString("email");
 			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+			TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
 
 			return View();
 		}

@@ -77,6 +77,13 @@
 								</ul>
 							</li>
 							<li><a asp-action="ShowEvents" asp-controller="Home">Events</a></li>
+							
+
+							@if (TempData["e_id"] != null)
+							{
+								<li><a asp-action="ShowEvents" asp-controller="Home">Pass<span class="badge badge-pill badge-primary">1</span></a></li>
+								
+							}
 							@if (TempData["Name"] == null)
 							{
 								<li><a asp-action="Login" asp-controller="Home">Login</a></li>
