@@ -25,13 +25,20 @@
 	<link href="~/Usercss/css/menu.css" rel="stylesheet">
 	<link href="~/Usercss/css/vendors.css" rel="stylesheet">
 	<link href="~/Usercss/css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
+	<link href="~/Usercss/css/style2.css" rel="stylesheet">
+
 	
 	<!-- SPECIFIC CSS -->
     <link href="~/Usercss/css/date_picker.css" rel="stylesheet">
 	
 	<!-- YOUR CUSTOM CSS -->
 	<link href="~/Usercss/css/custom.css" rel="stylesheet">
+	<style>
+		
 
+		
+		
+	</style>
 </head>
 
 <body>
@@ -81,7 +88,7 @@
 
 							@if (TempData["e_id"] != null)
 							{
-								<li><a asp-action="ShowEvents" asp-controller="Home">Pass<span class="badge badge-pill badge-primary">1</span></a></li>
+								<li><a asp-action="EventPass" asp-controller="Home">Pass<span class="badge badge-pill badge-primary">1</span></a></li>
 								
 							}
 							@if (TempData["Name"] == null)

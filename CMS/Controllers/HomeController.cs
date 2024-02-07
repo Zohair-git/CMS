@@ -213,12 +213,11 @@ namespace CMS.Controllers
 			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
 			TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
 
+            var fetchevent = db.TblEventBookings.Where(x => x.UserId == cont.HttpContext.Session.GetInt32("session_id")).ToList();
 
+          
 
-			return View();
-			
-
-			
+            return View(fetchevent);	
 		}
 
 		[HttpGet]
