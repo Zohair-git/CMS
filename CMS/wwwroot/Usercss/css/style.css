@@ -587,15 +587,18 @@ ul#top_access li#user figure img {
 #logo_home h1 {
   margin: 0;
   padding: 0;
-  line-height: 1;
+  line-height: ;
 }
     #logo_home h1 a {
         width: 163px;
         height: 36px;
         display: block;
-        background-image: url('../img/logo.png') no-repeat 0 0;
-        background-size: 163px 36px;
-        text-indent: -9999px;
+        background-image: url('../img/logo.png');
+        background-repeat:no-repeat;
+        background-position: 0 0;
+        background-size: 163px 50px;
+        text-indent: -9999px
+
     }
 
 /* Footer */

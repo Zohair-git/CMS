@@ -2,7 +2,7 @@
 
     Layout = "_AdminLayout";
 }
-
+@model IEnumerable<TblClientRegister>
 <div class="content-wrapper">
     <div class="container-fluid">
 
@@ -38,14 +38,17 @@
 
                             </tr>
                         </thead>
-
+                        @foreach (var data in Model)
+                        {
+                            
+                       
                         <tbody>
                             <tr>
-                                <td>1</td>
-                                <td>Panadol</td>
-                                <td>Edinburgh hhh</td>
-                                <td>21-2-24</td>
-                                <td>Edinburgh hhh</td>
+                                <td>@data.Id</td>
+                                <td>@data.Name</td>
+                                <td>@data.Email</td>
+                                <td>@data.Password</td>
+                                <td>-</td>
                                 <td><button class="btn btn-danger">Delete</button></td>
 
 
@@ -55,6 +58,7 @@
                             </tr>
 
                         </tbody>
+                        }
                     </table>
                 </div>
             </div>

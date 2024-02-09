@@ -205,7 +205,7 @@ namespace CMS.Controllers
 
 			return View();
         }
-
+		[HttpGet]
 		public IActionResult EventPass()
 		{
 			TempData["Name"] = cont.HttpContext.Session.GetString("name");
@@ -213,7 +213,7 @@ namespace CMS.Controllers
 			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
 			TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
 
-            var fetchevent = db.TblEventBookings.Where(x => x.UserId == cont.HttpContext.Session.GetInt32("session_id")).ToList();
+            var fetchevent = db.TblEventBookings.Where(x => x.UserId == cont.HttpContext.Session.GetInt32("session_id")).Include(x=>x.Event).ToList();
 
           
 

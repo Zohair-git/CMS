@@ -200,7 +200,7 @@ namespace CMS.Controllers
         }
         public IActionResult RegisteredUser()
 		{
-			return View();
+			return View(_context.TblClientRegisters.ToList());
 		}
 		public IActionResult Feedbacks()
 		{

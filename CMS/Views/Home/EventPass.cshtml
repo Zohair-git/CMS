@@ -1,5 +1,5 @@
 ﻿@{
-	Layout = "_UserLayout";
+    Layout = "_UserLayout";
 }
 @model IEnumerable<TblEventBooking>
 <!-- CSS Ticket inspired by -->
@@ -15,39 +15,60 @@
     </div>
 </div>
 
+@{
+    
+}
+@foreach (var tempData in Model)
+{
+    
+    if (tempData.Status == 1)
+    {
+        
+    
+
 <div class="ticket">
     <div class="stub">
         <div class="top">
-            <span class="admit">Admit</span>
+            <span class="admit">wdsxscc</span>
             <span class="line"></span>
             <span class="num">
                 Invitation
-                <span>31415926</span>
+                <span>@tempData.Id</span>
             </span>
         </div>
-        <div class="number">1</div>
+            <div class="number">@tempData.Id
+        </div>
         <div class="invite">
-            Invite for you
+            Pass for you
         </div>
     </div>
     <div class="check">
         <div class="big">
-            You're <br> Invited
+            Entry <br> Pass
         </div>
         <div class="number">#1</div>
         <div class="info">
             <section>
                 <div class="title">Date</div>
-                <div>4/27/2016</div>
+                    <div>
+                        @Convert.ToDateTime(tempData.Event.Date).ToString("d/MM/yyyy");
+                </div>
             </section>
             <section>
-                <div class="title">Issued By</div>
-                <div>Ampersand</div>
+                <div class="title"></div>
+                <div>@tempData.Event.Topic</div>
             </section>
             <section>
-                <div class="title">Invite Number</div>
-                <div>31415926</div>
+                <div class="title">Pass No</div>
+                <div>@tempData.Id</div>
             </section>
         </div>
     </div>
 </div>
+    }else
+    {
+        
+            <h5 class="text-center mt-4">Wait For Pass</h5>
+    }
+
+}
