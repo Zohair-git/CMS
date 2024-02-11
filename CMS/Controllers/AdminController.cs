@@ -206,9 +206,106 @@ namespace CMS.Controllers
 		{
 			return View();
 		}
+		[HttpGet]
 		public IActionResult AboutUs()
+		{
+			return View();
+		}
+		[HttpPost]
+		public IActionResult AboutUs(TblAbout contentUpdate, IFormFile imgone , IFormFile imgtwo , IFormFile imgthree , IFormFile imgfour)
         {
-            return View();
+			if (imgone != null && imgone.Length > 0 || imgtwo != null && imgtwo.Length > 0 || imgthree != null && imgthree.Length > 0 || imgfour != null && imgfour.Length > 0)
+			{
+				// GETTING IMAGE FILE EXTENSION 
+				var fileExt = System.IO.Path.GetExtension(imgone.FileName).Substring(1);
+				var fileExts = System.IO.Path.GetExtension(imgtwo.FileName).Substring(1);
+				var fileExtss = System.IO.Path.GetExtension(imgthree.FileName).Substring(1);
+				var fileExtsss = System.IO.Path.GetExtension(imgfour.FileName).Substring(1);
+
+
+
+				// GETTING IMAGE NAME
+				var random = Path.GetFileName(imgone.FileName);
+				var randoms = Path.GetFileName(imgtwo.FileName);
+				var randomss = Path.GetFileName(imgthree.FileName);
+				var randomsss = Path.GetFileName(imgfour.FileName);
+
+
+
+				// GUID ID COMBINE WITH IMAGE NAME - TO ESCAPE IMAGE NAME REDENDNCY 
+				var FileName = Guid.NewGuid() + random;
+				var FileNames = Guid.NewGuid() + randoms;
+				var FileNamess = Guid.NewGuid() + randomss;
+				var FileNamesss = Guid.NewGuid() + randomsss;
+
+
+
+				// GET PATH OF CUSTOM IMAGE FOLDER
+				string imgFolder = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/AboutImg");
+
+				// CHECKING FOLDER EXIST OR NOT - IF NOT THEN CREATE F0LDER 
+				if (!Directory.Exists(imgFolder))
+				{
+					Directory.CreateDirectory(imgFolder);
+				}
+
+				// MAKING CUSTOM AND COMBINE FOLDER PATH WITH IMAHE 
+				string filepath = Path.Combine(imgFolder, FileName);
+				string filepaths = Path.Combine(imgFolder, FileNames);
+				string filepathss = Path.Combine(imgFolder, FileNamess);
+				string filepathsss = Path.Combine(imgFolder, FileNamesss);
+
+
+
+				// COPY IMAGE TO REAL PATH TO DEVELOPER PATH
+				using (var stream = new FileStream(filepath, FileMode.Create))
+				{
+					imgone.CopyTo(stream);
+				}
+
+
+
+				// READY SEND PATH TO  IMAGE TO DB  
+				var dbAddress = Path.Combine("AboutImg", FileName);
+				var dbAddresss = Path.Combine("AboutImg", FileNames);
+				var dbAddressss = Path.Combine("AboutImg", FileNamess);
+				var dbAddresssss = Path.Combine("AboutImg", FileNamesss);
+
+				// EQUALIZE TABLE (MODEL) PROPERTY WITH CUSTOM PATH 
+				contentUpdate.Imageone = dbAddress;
+				contentUpdate.Imagetwo = dbAddresss;
+				contentUpdate.Imagethree = dbAddressss;
+				contentUpdate.Imagefour = dbAddresssss;
+
+			
+
+
+				TblAbout tblAbout = _context.TblAbouts.FirstOrDefault(cols => cols.Id == 1);
+
+			tblAbout.Id = 1;
+			tblAbout.MainTitle = contentUpdate.MainTitle;
+
+			tblAbout.Headingone = contentUpdate.Headingone;
+			tblAbout.Imageone = contentUpdate.Imageone;
+			tblAbout.Textone = contentUpdate.Textone;
+
+			tblAbout.Headingtwo = contentUpdate.Headingtwo;
+			tblAbout.Imagetwo = contentUpdate.Imagetwo;
+			tblAbout.Texttwo = contentUpdate.Texttwo;
+
+			tblAbout.Headingthree = contentUpdate.Headingthree;
+			tblAbout.Imagethree = contentUpdate.Imagethree;
+			tblAbout.Textthree = contentUpdate.Textthree;
+
+			tblAbout.Headingfour = contentUpdate.Headingfour;
+			tblAbout.Imagefour = contentUpdate.Imagefour;
+			tblAbout.Textfour = contentUpdate.Textfour;
+
+			var hj = "sajnsa";
+
+			_context.SaveChanges();
+			}
+			return View();
         }
     }
 }

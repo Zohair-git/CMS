@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\CMS.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\AboutImg\\d9024aab-f51d-4d6a-adc3-ba7953b526fekkPHxg.png",
+      "PackagePath": "staticwebassets\\AboutImg\\d9024aab-f51d-4d6a-adc3-ba7953b526fekkPHxg.png"
+    },
+    {
       "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\css\\admin.css",
       "PackagePath": "staticwebassets\\Admincss\\css\\admin.css"
     },
@@ -511,6 +515,10 @@
     {
       "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\BannerImgs\\dd58059d-a442-4b63-83ab-9c1484baa562Banner-944x512.jpg",
       "PackagePath": "staticwebassets\\BannerImgs\\dd58059d-a442-4b63-83ab-9c1484baa562Banner-944x512.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\BannerImgs\\f1e98b2e-980a-48ee-9209-ac0f1e9db102cropped-qxOGay-removebg-preview.jpg",
+      "PackagePath": "staticwebassets\\BannerImgs\\f1e98b2e-980a-48ee-9209-ac0f1e9db102cropped-qxOGay-removebg-preview.jpg"
     },
     {
       "Id": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\TransactionImages\\03780d68-26b8-4395-8001-96c52d602e38cropped-qxOGay-removebg-preview.jpg",

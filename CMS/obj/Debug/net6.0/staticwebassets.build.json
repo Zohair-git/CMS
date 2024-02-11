@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sNRnOasRLWbR8YhsM3+6cy5vzQ6W7TNOSYG8PLWQMkY=",
+  "Hash": "jVKq+maj5kTAL1RID6FIpqzmIik0PQq5nWFRvPpLQ9o=",
   "Source": "CMS",
   "BasePath": "_content/CMS",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CMS.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\AboutImg\\d9024aab-f51d-4d6a-adc3-ba7953b526fekkPHxg.png",
+      "SourceId": "CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\",
+      "BasePath": "_content/CMS",
+      "RelativePath": "AboutImg/d9024aab-f51d-4d6a-adc3-ba7953b526fekkPHxg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AboutImg\\d9024aab-f51d-4d6a-adc3-ba7953b526fekkPHxg.png"
     },
     {
       "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\Admincss\\css\\admin.css",
@@ -2208,6 +2225,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\BannerImgs\\dd58059d-a442-4b63-83ab-9c1484baa562Banner-944x512.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\BannerImgs\\f1e98b2e-980a-48ee-9209-ac0f1e9db102cropped-qxOGay-removebg-preview.jpg",
+      "SourceId": "CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\",
+      "BasePath": "_content/CMS",
+      "RelativePath": "BannerImgs/f1e98b2e-980a-48ee-9209-ac0f1e9db102cropped-qxOGay-removebg-preview.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BannerImgs\\f1e98b2e-980a-48ee-9209-ac0f1e9db102cropped-qxOGay-removebg-preview.jpg"
     },
     {
       "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\css\\site.css",

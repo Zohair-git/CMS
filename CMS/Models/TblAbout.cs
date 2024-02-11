@@ -5,6 +5,7 @@ namespace CMS.Models
 {
     public partial class TblAbout
     {
+        public int Id { get; set; }
         public string? MainTitle { get; set; }
         public string? Headingone { get; set; }
         public string? Imageone { get; set; }
