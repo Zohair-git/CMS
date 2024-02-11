@@ -1,5 +1,37 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AboutImg\1a621bc9-d6ca-45d0-8dfd-ed114af62809healthylaws.PNG))">
+      <SourceType>Package</SourceType>
+      <SourceId>CMS</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CMS</BasePath>
+      <RelativePath>AboutImg/1a621bc9-d6ca-45d0-8dfd-ed114af62809healthylaws.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AboutImg\1a621bc9-d6ca-45d0-8dfd-ed114af62809healthylaws.PNG))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AboutImg\42008fd6-5105-4843-a1cc-e458dd8e2c50healthylaws.PNG))">
+      <SourceType>Package</SourceType>
+      <SourceId>CMS</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CMS</BasePath>
+      <RelativePath>AboutImg/42008fd6-5105-4843-a1cc-e458dd8e2c50healthylaws.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AboutImg\42008fd6-5105-4843-a1cc-e458dd8e2c50healthylaws.PNG))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AboutImg\d9024aab-f51d-4d6a-adc3-ba7953b526fekkPHxg.png))">
       <SourceType>Package</SourceType>
       <SourceId>CMS</SourceId>

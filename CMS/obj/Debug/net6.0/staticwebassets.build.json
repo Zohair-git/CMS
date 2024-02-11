@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jVKq+maj5kTAL1RID6FIpqzmIik0PQq5nWFRvPpLQ9o=",
+  "Hash": "Vb2/0rgISvZmByDaeKWntySZLkDTr3a5RJFVYFOyUas=",
   "Source": "CMS",
   "BasePath": "_content/CMS",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CMS.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\AboutImg\\1a621bc9-d6ca-45d0-8dfd-ed114af62809healthylaws.PNG",
+      "SourceId": "CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\",
+      "BasePath": "_content/CMS",
+      "RelativePath": "AboutImg/1a621bc9-d6ca-45d0-8dfd-ed114af62809healthylaws.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AboutImg\\1a621bc9-d6ca-45d0-8dfd-ed114af62809healthylaws.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\AboutImg\\42008fd6-5105-4843-a1cc-e458dd8e2c50healthylaws.PNG",
+      "SourceId": "CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\",
+      "BasePath": "_content/CMS",
+      "RelativePath": "AboutImg/42008fd6-5105-4843-a1cc-e458dd8e2c50healthylaws.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AboutImg\\42008fd6-5105-4843-a1cc-e458dd8e2c50healthylaws.PNG"
     },
     {
       "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\AboutImg\\d9024aab-f51d-4d6a-adc3-ba7953b526fekkPHxg.png",
