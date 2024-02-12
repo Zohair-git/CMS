@@ -2217,3 +2217,11 @@ C:\Users\asp\Documents\GitHub\CMS\CMS\bin\Debug\net6.0\System.Security.Cryptogra
 C:\Users\asp\Documents\GitHub\CMS\CMS\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
 C:\Users\asp\Documents\GitHub\CMS\CMS\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\asp\Documents\GitHub\CMS\CMS\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\asp\Desktop\CMS\CMS\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\asp\Desktop\CMS\CMS\bin\Debug\net6.0\MailKit.dll
+C:\Users\asp\Desktop\CMS\CMS\bin\Debug\net6.0\MimeKit.dll
+C:\Users\asp\Desktop\CMS\CMS\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\asp\Desktop\CMS\CMS\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\asp\Desktop\CMS\CMS\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\asp\Desktop\CMS\CMS\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\asp\Desktop\CMS\CMS\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
