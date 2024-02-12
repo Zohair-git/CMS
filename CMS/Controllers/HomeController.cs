@@ -82,12 +82,12 @@ namespace CMS.Controllers
             cart.PPrice = price;
             cart.PDes = desc;
             cart.PQty = quantity;
-            cart.Order =
+            //cart.Order =
 
-            cont.HttpContext.Session.SetString("cart", );
+            //cont.HttpContext.Session.SetString("cart", );
 
 
-            TblOrder order = new TblOrder();
+            //TblOrder order = new TblOrder();
 
 
 
@@ -227,7 +227,10 @@ namespace CMS.Controllers
 			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
 			TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
 
-			return View();
+		 TblAbout fetchabout = db.TblAbouts.FirstOrDefault(x => x.Id == 1);
+
+
+			return View(fetchabout);
         } 
         public IActionResult Contactus()
         {
