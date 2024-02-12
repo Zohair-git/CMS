@@ -202,6 +202,8 @@ namespace CMS.Controllers
 		{
 			return View(_context.TblClientRegisters.ToList());
 		}
+
+
 		public IActionResult Feedbacks()
 		{
 			return View();

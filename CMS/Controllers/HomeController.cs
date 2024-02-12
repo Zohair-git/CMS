@@ -9,6 +9,7 @@ using System.Diagnostics;
 using MimeKit;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Identity;
 using NuGet.Protocol;
+using Microsoft.CodeAnalysis.FlowAnalysis.DataFlow;
 
 namespace CMS.Controllers
 {
@@ -45,11 +46,11 @@ namespace CMS.Controllers
 				
 				TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
 
-
 			}
 			return View(db.TblProducts.ToList());
         }
-		public IActionResult ShowEvents()
+
+        public IActionResult ShowEvents()
 		{
 			TempData["Name"] = cont.HttpContext.Session.GetString("name");
 			TempData["Email"] = cont.HttpContext.Session.GetString("email");
@@ -58,8 +59,40 @@ namespace CMS.Controllers
 
 			return View(db.TblUpcomingEvents.ToList());
 		}
-       
 
+        public IActionResult AddtoCart(int id, int qty)
+        {
+            var product = db.TblProducts.Where(x => x.Id == id).ToList();
+            var name = product[0].ProductName;
+            var price = product[0].Price;
+            var desc = product[0].Description;
+            var quantity = 0;
+
+            if (qty == null)
+            {
+                quantity = 1;
+            }
+            else
+            {
+                quantity = qty;
+            }
+
+            TblCheckout cart = new TblCheckout();
+            cart.PName = name;
+            cart.PPrice = price;
+            cart.PDes = desc;
+            cart.PQty = quantity;
+            cart.Order =
+
+            cont.HttpContext.Session.SetString("cart", );
+
+
+            TblOrder order = new TblOrder();
+
+
+
+            return View();
+        }
 
         [HttpGet]
 		public IActionResult EventBookingForm( int id)
