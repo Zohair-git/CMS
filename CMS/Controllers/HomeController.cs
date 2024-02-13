@@ -10,6 +10,7 @@ using MimeKit;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Identity;
 using NuGet.Protocol;
 using Microsoft.CodeAnalysis.FlowAnalysis.DataFlow;
+using Microsoft.AspNetCore.Http;
 
 namespace CMS.Controllers
 {
@@ -162,9 +163,91 @@ namespace CMS.Controllers
 		}
 
 
+        public IActionResult AddtoCart(int id, int? qty)
+        {
+            var product = db.TblProducts.Find(id);
 
+            int quantityToAdd = qty.HasValue && qty > 0 ? qty.Value : 1;
 
-		[HttpGet]
+            // Retrieve existing cart items from session or create a new list
+            List<CartItem> cartItems = HttpContext.Session.Get<List<CartItem>>("cart") ?? new List<CartItem>();
+
+            // Check if the item is already in the cart
+            var existingItem = cartItems.FirstOrDefault(item => item.Id == product.Id);
+            if (existingItem != null)
+            {
+                // Update quantity if item already exists in the cart
+                existingItem.Quantity += quantityToAdd;
+            }
+            else
+            {
+                // Add a new item to the cart
+                cartItems.Add(new CartItem
+                {
+                    Name = product.ProductName,
+                    Description = product.Description,
+                    Price = (int)product.Price,
+                    Quantity = quantityToAdd,
+                    Id = product.Id
+                });
+            }
+
+            // Update the session with the new cart items
+            HttpContext.Session.Set("cart", cartItems);
+
+            return RedirectToAction("Cart");
+        }
+
+        [HttpGet]
+        public IActionResult Cart()
+        {
+            List<CartItem> cartItems = HttpContext.Session.Get<List<CartItem>>("cart");
+
+            if (cartItems != null && cartItems.Any())
+            {
+                ViewBag.Items = cartItems;
+            }
+
+            return View();
+        }
+
+        //public IActionResult Checkout()
+        //{
+        //    var cart = HttpContext.Session.Get<List<CartItem>>("Cart");
+        //    if (cart == null || cart.Count == 0)
+        //    {
+        //        return RedirectToAction("Index");
+        //    }
+
+        //    // Save cart items to tbl_checkout and tbl_order
+        //    foreach (var item in cart)
+        //    {
+        //        var checkoutItem = new TblCheckout
+        //        {
+        //            PName = item.ProductName,
+        //            PDes = item.ProductDescription,
+        //            PPrice = item.Price,
+        //            PQty = item.Quantity,
+        //            // Set other properties accordingly
+        //        };
+        //        db.TblCheckouts.Add(checkoutItem);
+        //    }
+
+        //    var order = new TblOrder
+        //    {
+        //        // Set order properties
+        //    };
+        //    db.TblOrders.Add(order);
+
+        //    db.SaveChanges();
+
+        //    // Clear the cart after checkout
+        //    HttpContext.Session.Remove("Cart");
+
+        //    return View("OrderConfirmation");
+        //}
+
+        [HttpGet]
 		public IActionResult Login()
         {
             return View();
