@@ -31,11 +31,11 @@ namespace CMS.Controllers
 
 			if (session_username != null)
 			{
-				return RedirectToAction("Index", "Admin");
+                return View();
 			}
 			else
 			{
-                return View();
+				return RedirectToAction("Login", "Admin");
 
 			}
 
