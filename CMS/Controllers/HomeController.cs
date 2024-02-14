@@ -162,7 +162,7 @@ namespace CMS.Controllers
 
 		}
 
-
+		[HttpGet]
         public IActionResult AddtoCart(int id, int? qty)
         {
             var product = db.TblProducts.Find(id);
@@ -188,6 +188,7 @@ namespace CMS.Controllers
                     Description = product.Description,
                     Price = (int)product.Price,
                     Quantity = quantityToAdd,
+					Image = product.Image,
                     Id = product.Id
                 });
             }

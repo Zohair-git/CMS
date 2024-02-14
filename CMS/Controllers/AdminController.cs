@@ -9,19 +9,90 @@ namespace CMS.Controllers
     public class AdminController : Controller
     {
 		private readonly db_cmsContext _context;
-       
-        public AdminController(db_cmsContext context)
+		private readonly IHttpContextAccessor cont;
+
+
+		public AdminController(db_cmsContext context , IHttpContextAccessor cont)
 		{
 			_context = context;
+			this.cont = cont;
+
 		}
+		[HttpGet]
 		public IActionResult Index()
         {
-            return View();
+			var session_name = cont.HttpContext.Session.GetString("name");
+			var session_username = cont.HttpContext.Session.GetString("username");
+			var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+			TempData["Name"] = session_name;
+			TempData["username"] = session_username;
+			TempData["id"] = session_id;
+
+			if (session_username != null)
+			{
+				return RedirectToAction("Index", "Admin");
+			}
+			else
+			{
+                return View();
+
+			}
+
         }
-        public IActionResult Login()
+		[HttpGet]
+		public IActionResult Login()
+		{
+			return View();
+		}
+		[HttpPost]
+        public IActionResult Login(TblAdmin Auth)
         {
+            var front_username = Auth.Username;
+            var front_password = Auth.Password;
+
+            var fetchuser = _context.TblAdmins.Where(x => x.Username == front_username).ToList();
+
+            if (fetchuser.Count > 0)
+            {
+
+                var backend_name = fetchuser[0].AdminName;
+                var backend_username = fetchuser[0].Username;
+                var backend_id = fetchuser[0].Id;
+                var backend_password = fetchuser[0].Password;
+
+
+                if (front_username == backend_username && front_password == backend_password)
+                {
+                    cont.HttpContext.Session.SetString("name", backend_name);
+                    cont.HttpContext.Session.SetString("username", backend_username);
+                    cont.HttpContext.Session.SetInt32("session_id", backend_id);
+
+                    var session_name = cont.HttpContext.Session.GetString("name");
+                    var session_username = cont.HttpContext.Session.GetString("username");
+                    var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+                    TempData["Name"] = session_name;
+                    TempData["username"] = session_username;
+                    TempData["id"] = session_id;
+
+
+                    return RedirectToAction("Index", "Admin");
+
+                }
+
+
+            }
+            else if (fetchuser.Count == 0)
+            {
+                TempData["Alertmsg"] = "No User Found Or Wrong Credential";
+
+            }
+
+
             return View();
         }
+
         [HttpGet]
         public IActionResult ProductAdd()
         {

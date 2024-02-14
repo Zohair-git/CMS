@@ -585,9 +585,7 @@ ul#top_access li#user figure img {
 
 /* logo home with h1 */
 #logo_home h1 {
-  margin: 0;
-  padding: 0;
-  line-height: ;
+ 
 }
     #logo_home h1 a {
         width: 163px;
@@ -596,7 +594,7 @@ ul#top_access li#user figure img {
         background-image: url('../img/logo.png');
         background-repeat:no-repeat;
         background-position: 0 0;
-        background-size: 163px 50px;
+        background-size: 158px 43px;
         text-indent: -9999px
 
     }

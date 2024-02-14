@@ -2,6 +2,7 @@
 
     Layout = "_UserLayout";
 }
+@model CMS.Models.TblFeedback;
 <main>
 	<div id="breadcrumb">
 		<div class="container">
@@ -23,26 +24,25 @@
 						<div class="form-group">
 							<label class="d-block">Overall rating</label>
 							<span class="rating">
-								<input type="radio" class="rating-input" id="5_star" name="rating-input" value="5 Stars"><label for="5_star" class="rating-star"></label>
-								<input type="radio" class="rating-input" id="4_star" name="rating-input" value="4 Stars"><label for="4_star" class="rating-star"></label>
-								<input type="radio" class="rating-input" id="3_star" name="rating-input" value="3 Stars"><label for="3_star" class="rating-star"></label>
-								<input type="radio" class="rating-input" id="2_star" name="rating-input" value="2 Stars"><label for="2_star" class="rating-star"></label>
-								<input type="radio" class="rating-input" id="1_star" name="rating-input" value="1 Star"><label for="1_star" class="rating-star"></label>
+								<input type="radio" class="rating-input" id="5_star" asp-route-id="5" name="rating-input" ><label for="5_star" class="rating-star"></label>
+								<input type="radio" class="rating-input" id="4_star" asp-route-id="4" name="rating-input" ><label for="4_star" class="rating-star"></label>
+								<input type="radio" class="rating-input" id="3_star" asp-route-id="3" name="rating-input"><label for="3_star" class="rating-star"></label>
+								<input type="radio" class="rating-input" asp-route-id="2" name="rating-input" ><label for="2_star" class="rating-star"></label>
+								<input type="radio" class="rating-input" asp-route-id="1" name="rating-input" ><label for="1_star" class="rating-star"></label>
+
+				<label for="1_star" class="rating-star"></label>
+
 							</span>
 						</div>
 					</div>
 					<!-- /rating_submit -->
 					<div class="form-group">
 						<label>Title of your review</label>
-						<input class="form-control" type="text" placeholder="If you could say it in one sentence, what would you say?">
+						<input class="form-control" asp-for="Title" type="text" placeholder="If you could say it in one sentence, what would you say?">
 					</div>
 					<div class="form-group">
 						<label>Your review</label>
-						<textarea class="form-control" style="height: 180px;" placeholder="Write your review here ..."></textarea>
-					</div>
-					<div class="form-group">
-						<label>Add your photo (optional)</label>
-						<div class="fileupload"><input type="file" name="fileupload" accept="image/*"></div>
+						<textarea class="form-control" asp-for="Text" style="height: 180px;" placeholder="Write your review here ..."></textarea>
 					</div>
 					<hr>
 					<div class="form-group">
@@ -54,7 +54,7 @@
 							</label>
 						</div>
 					</div>
-					<a href="#0" class="btn_1">Submit review</a>
+					<button class="btn_1" id="" disabled>Submit review</button>
 				</div>
 			</div>
 		</div>
