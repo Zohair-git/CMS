@@ -60,40 +60,7 @@ namespace CMS.Controllers
 
 			return View(db.TblUpcomingEvents.ToList());
 		}
-
-        public IActionResult AddtoCart(int id, int qty)
-        {
-            var product = db.TblProducts.Where(x => x.Id == id).ToList();
-            var name = product[0].ProductName;
-            var price = product[0].Price;
-            var desc = product[0].Description;
-            var quantity = 0;
-
-            if (qty == null)
-            {
-                quantity = 1;
-            }
-            else
-            {
-                quantity = qty;
-            }
-
-            TblCheckout cart = new TblCheckout();
-            cart.PName = name;
-            cart.PPrice = price;
-            cart.PDes = desc;
-            cart.PQty = quantity;
-            //cart.Order =
-
-            //cont.HttpContext.Session.SetString("cart", );
-
-
-            //TblOrder order = new TblOrder();
-
-
-
-            return View();
-        }
+		
 
         [HttpGet]
 		public IActionResult EventBookingForm( int id)
@@ -165,19 +132,19 @@ namespace CMS.Controllers
 		[HttpGet]
         public IActionResult AddtoCart(int id, int? qty)
         {
+			
             var product = db.TblProducts.Find(id);
 
-            int quantityToAdd = qty.HasValue && qty > 0 ? qty.Value : 1;
-
-            // Retrieve existing cart items from session or create a new list
-            List<CartItem> cartItems = HttpContext.Session.Get<List<CartItem>>("cart") ?? new List<CartItem>();
+			int quantityToAdd = qty.HasValue && qty > 0 ? qty.Value : 1;
+			// Retrieve existing cart items from session or create a new list
+			List<CartItem> cartItems = HttpContext.Session.Get<List<CartItem>>("cart") ?? new List<CartItem>();
 
             // Check if the item is already in the cart
             var existingItem = cartItems.FirstOrDefault(item => item.Id == product.Id);
             if (existingItem != null)
             {
                 // Update quantity if item already exists in the cart
-                existingItem.Quantity += quantityToAdd;
+                existingItem.Quantity = quantityToAdd;
             }
             else
             {
@@ -202,7 +169,11 @@ namespace CMS.Controllers
         [HttpGet]
         public IActionResult Cart()
         {
-            List<CartItem> cartItems = HttpContext.Session.Get<List<CartItem>>("cart");
+			TempData["Name"] = cont.HttpContext.Session.GetString("name");
+			TempData["Email"] = cont.HttpContext.Session.GetString("email");
+			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+
+			List<CartItem> cartItems = HttpContext.Session.Get<List<CartItem>>("cart");
 
             if (cartItems != null && cartItems.Any())
             {
@@ -415,6 +386,10 @@ namespace CMS.Controllers
 		[HttpGet]
 		public IActionResult ProductDetails(int Id)
 		{
+			TempData["Name"] = cont.HttpContext.Session.GetString("name");
+			TempData["Email"] = cont.HttpContext.Session.GetString("email");
+			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+
 			AllTables main_model = new AllTables()
 			{
 				product_list = db.TblProducts.Take(4).ToList(),

@@ -58,9 +58,23 @@
 											</li>
 											<li>
 											<h4 class="px-1"><span style="text-decoration:line-through;">@Model.productss.Price</span> <i class="pe-7s-cash mx-1"></i></h4>
+
+											
+											
 												
 											</li>
+										@if(TempData["Name"] == null)
+										{
+											<div class="text-end"><a asp-action="Login"  asp-controller="Home" class="btn_1">Add To Cart</a></div>
+										}
+										else
+										{
+										
+											<div class="text-end"><a asp-action="AddtoCart" asp-route-id="@Model.productss.Id" asp-controller="Home" class="btn_1">Add To Cart</a></div>
 											
+										}
+
+										
 										</ul>
 									</div>
 								</div>
