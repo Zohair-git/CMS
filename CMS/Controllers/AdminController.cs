@@ -40,6 +40,11 @@ namespace CMS.Controllers
 			}
 
         }
+		public IActionResult Logout()
+		{
+			cont.HttpContext.Session.Clear();
+			return RedirectToAction("Index");
+		}
 		[HttpGet]
 		public IActionResult Login()
 		{
@@ -96,7 +101,23 @@ namespace CMS.Controllers
         [HttpGet]
         public IActionResult ProductAdd()
         {
-            return View();
+			var session_name = cont.HttpContext.Session.GetString("name");
+			var session_username = cont.HttpContext.Session.GetString("username");
+			var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+			TempData["Name"] = session_name;
+			TempData["username"] = session_username;
+			TempData["id"] = session_id;
+
+			if (session_username != null)
+			{
+				return View();
+			}
+			else
+			{
+				return RedirectToAction("Login", "Admin");
+
+			}
         }
 		[HttpPost]
 		public async Task<IActionResult> ProductAdd(AllTables model, List<IFormFile> imgs, IFormFile banner)
@@ -177,12 +198,44 @@ namespace CMS.Controllers
 		}
 		public IActionResult ProductView()
         {
-            return View(_context.TblProducts.ToList());
+			var session_name = cont.HttpContext.Session.GetString("name");
+			var session_username = cont.HttpContext.Session.GetString("username");
+			var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+			TempData["Name"] = session_name;
+			TempData["username"] = session_username;
+			TempData["id"] = session_id;
+
+			if (session_username != null)
+			{
+			return View(_context.TblProducts.ToList());
+			}
+			else
+			{
+				return RedirectToAction("Login", "Admin");
+
+			}
         }
 		[HttpGet]
         public IActionResult AddEvent()
         {
-            return View();
+			var session_name = cont.HttpContext.Session.GetString("name");
+			var session_username = cont.HttpContext.Session.GetString("username");
+			var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+			TempData["Name"] = session_name;
+			TempData["username"] = session_username;
+			TempData["id"] = session_id;
+
+			if (session_username != null)
+			{
+				return View();
+			}
+			else
+			{
+				return RedirectToAction("Login", "Admin");
+
+			}
         }
         [HttpPost]
         public IActionResult AddEvent(TblUpcomingEvent newevent , IFormFile banner)
@@ -237,13 +290,45 @@ namespace CMS.Controllers
         }
         public IActionResult ViewEvent()
         {
-            return View(_context.TblUpcomingEvents.ToList());
+			var session_name = cont.HttpContext.Session.GetString("name");
+			var session_username = cont.HttpContext.Session.GetString("username");
+			var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+			TempData["Name"] = session_name;
+			TempData["username"] = session_username;
+			TempData["id"] = session_id;
+
+			if (session_username != null)
+			{
+			return View(_context.TblUpcomingEvents.ToList());
+			}
+			else
+			{
+				return RedirectToAction("Login", "Admin");
+
+			}
         }
         public IActionResult Bookings()
         {
+
             var tbl = _context.TblEventBookings.Include(y => y.User).Include(x => x.Event).Where(x => x.Status == 0).ToList();
-            
-            return View(tbl);
+			var session_name = cont.HttpContext.Session.GetString("name");
+			var session_username = cont.HttpContext.Session.GetString("username");
+			var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+			TempData["Name"] = session_name;
+			TempData["username"] = session_username;
+			TempData["id"] = session_id;
+
+			if (session_username != null)
+			{
+			return View(tbl);
+			}
+			else
+			{
+				return RedirectToAction("Login", "Admin");
+
+			}
         }
         public IActionResult Approve( int id)
         {
@@ -271,18 +356,66 @@ namespace CMS.Controllers
         }
         public IActionResult RegisteredUser()
 		{
+			var session_name = cont.HttpContext.Session.GetString("name");
+			var session_username = cont.HttpContext.Session.GetString("username");
+			var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+			TempData["Name"] = session_name;
+			TempData["username"] = session_username;
+			TempData["id"] = session_id;
+
+			if (session_username != null)
+			{
 			return View(_context.TblClientRegisters.ToList());
+			}
+			else
+			{
+				return RedirectToAction("Login", "Admin");
+
+			}
 		}
 
 
 		public IActionResult Feedbacks()
 		{
-			return View();
+			var session_name = cont.HttpContext.Session.GetString("name");
+			var session_username = cont.HttpContext.Session.GetString("username");
+			var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+			TempData["Name"] = session_name;
+			TempData["username"] = session_username;
+			TempData["id"] = session_id;
+
+			if (session_username != null)
+			{
+				return View();
+			}
+			else
+			{
+				return RedirectToAction("Login", "Admin");
+
+			}
 		}
 		[HttpGet]
 		public IActionResult AboutUs()
 		{
-			return View();
+			var session_name = cont.HttpContext.Session.GetString("name");
+			var session_username = cont.HttpContext.Session.GetString("username");
+			var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+			TempData["Name"] = session_name;
+			TempData["username"] = session_username;
+			TempData["id"] = session_id;
+
+			if (session_username != null)
+			{
+				return View();
+			}
+			else
+			{
+				return RedirectToAction("Login", "Admin");
+
+			}
 		}
 		[HttpPost]
 		public IActionResult AboutUs(TblAbout contentUpdate, IFormFile imgone , IFormFile imgtwo , IFormFile imgthree , IFormFile imgfour)

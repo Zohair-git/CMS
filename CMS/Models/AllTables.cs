@@ -14,5 +14,7 @@
 		public TblClientRegister clientRegister { get; set; }
 		public TblUpcomingEvent upcomingEvent { get; set; }
 		public TblEventBooking bookingss { get; set; }
+
+
 	}
 }

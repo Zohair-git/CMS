@@ -48,7 +48,17 @@ namespace CMS.Controllers
 				TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
 
 			}
-			return View(db.TblProducts.ToList());
+
+
+			var viewModel = new AllTables
+			{
+			product_list = db.TblProducts.ToList(),
+		    upcoming_events = db.TblUpcomingEvents.ToList()
+
+			};
+
+		
+			return View(viewModel);
         }
 
         public IActionResult ShowEvents()
@@ -178,9 +188,10 @@ namespace CMS.Controllers
             if (cartItems != null && cartItems.Any())
             {
                 ViewBag.Items = cartItems;
-            }
-
+			}
+			
             return View();
+
         }
 
         //public IActionResult Checkout()
