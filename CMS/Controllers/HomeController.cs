@@ -151,10 +151,12 @@ namespace CMS.Controllers
 
             // Check if the item is already in the cart
             var existingItem = cartItems.FirstOrDefault(item => item.Id == product.Id);
+			var gfv = "lji";
+
             if (existingItem != null)
             {
                 // Update quantity if item already exists in the cart
-                existingItem.Quantity = quantityToAdd;
+                existingItem.Quantity += quantityToAdd;
             }
             else
             {
@@ -168,8 +170,8 @@ namespace CMS.Controllers
 					Image = product.Image,
                     Id = product.Id
                 });
-            }
 
+            }
             // Update the session with the new cart items
             HttpContext.Session.Set("cart", cartItems);
 
@@ -190,47 +192,72 @@ namespace CMS.Controllers
                 ViewBag.Items = cartItems;
 			}
 			
+			
+			
             return View();
 
         }
+		[HttpPost]
+		public IActionResult Checkout(TblOrder c_order)
+		{
+			TempData["Name"] = cont.HttpContext.Session.GetString("name");
+			TempData["Email"] = cont.HttpContext.Session.GetString("email");
+			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
+			TempData["e_id"] = cont.HttpContext.Session.GetInt32("uid");
 
-        //public IActionResult Checkout()
-        //{
-        //    var cart = HttpContext.Session.Get<List<CartItem>>("Cart");
-        //    if (cart == null || cart.Count == 0)
-        //    {
-        //        return RedirectToAction("Index");
-        //    }
+			var order = new TblOrder
+                {
+                    // Set order properties
+                    Address = c_order.Address, 
+                    UId = c_order.UId, 
+                    Date = c_order.Date, 
+                    TotalPurchase = c_order.TotalPurchase 
+                };
+                db.TblOrders.Add(order);
 
-        //    // Save cart items to tbl_checkout and tbl_order
-        //    foreach (var item in cart)
-        //    {
-        //        var checkoutItem = new TblCheckout
-        //        {
-        //            PName = item.ProductName,
-        //            PDes = item.ProductDescription,
-        //            PPrice = item.Price,
-        //            PQty = item.Quantity,
-        //            // Set other properties accordingly
-        //        };
-        //        db.TblCheckouts.Add(checkoutItem);
-        //    }
+			db.SaveChanges();
 
-        //    var order = new TblOrder
-        //    {
-        //        // Set order properties
-        //    };
-        //    db.TblOrders.Add(order);
+            int orderId = order.Id;
 
-        //    db.SaveChanges();
+            List<CartItem> cart = HttpContext.Session.Get<List<CartItem>>("cart");
 
-        //    // Clear the cart after checkout
-        //    HttpContext.Session.Remove("Cart");
+			if (cart == null || cart.Count == 0 )
+			{
+				return RedirectToAction("Index");
+			}
+			else
+			{
 
-        //    return View("OrderConfirmation");
-        //}
+			// Save cart items to tbl_checkout and tbl_order
+			foreach (var item in cart)
+			{
+					var checkoutItem = new TblCheckout
+					{
+						PName = item.Name,
+						PDes = item.Description,
+						PPrice = item.Price,
+						PQty = item.Quantity,
+						OrderId = orderId
+                        // Set other properties accordingly
+                    };
+					var ghbhb = "jhujbj";
+				db.TblCheckouts.Add(checkoutItem);
 
-        [HttpGet]
+                }
+
+				TempData["Order"] = "Your Order has been placed";
+
+
+                // Clear the cart after checkout
+                HttpContext.Session.Remove("cart");
+                db.SaveChanges();
+
+                return View("Confirmation");
+			}
+
+		}
+
+		[HttpGet]
 		public IActionResult Login()
         {
             return View();
@@ -333,36 +360,46 @@ namespace CMS.Controllers
 		{
 			var front_email = auth.Email;
             var front_name = auth.Name;
-            var msgbody = "How you doin babe";
+            var msgbody = "How you doin Providence Clinic";
             var pass_one = auth.Password;
             var pass_two = confrmpassword;
 
 
-			
-            if(pass_one == pass_two)
-            {
-                string value = "vwrj iivm qgpy vqdu";
+			var existingClient = db.TblClientRegisters.FirstOrDefault(c => c.Email == front_email);
+			if (existingClient != null)
+			{
+				TempData["Alertmesg"] = "Email Already Exist";
 
-                var msg = new MimeMessage();
-                msg.From.Add(new MailboxAddress("Providence Clinic", "huzaifairfan2144@gmail.com"));
-                msg.To.Add(new MailboxAddress(front_name, front_email));
-                msg.Subject = "Providence Clinic Account Verification";
-                msg.Body = new TextPart { Text = msgbody };
-
-                using var client = new SmtpClient();
-                client.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTlsWhenAvailable);
-                client.Authenticate("huzaifairfan2144@gmail.com", value);
-                client.Send(msg);
-
-				db.TblClientRegisters.Add(auth);
-		        db.SaveChanges();
-				return RedirectToAction("Confirmation");
 			}
-            else
-            {
-			  return RedirectToAction("Index");
+			else
+			{
 
-            }
+
+				if (pass_one == pass_two)
+				{
+					string value = "vwrj iivm qgpy vqdu";
+
+					var msg = new MimeMessage();
+					msg.From.Add(new MailboxAddress("Providence Clinic", "huzaifairfan2144@gmail.com"));
+					msg.To.Add(new MailboxAddress(front_name, front_email));
+					msg.Subject = "Providence Clinic Account Verification";
+					msg.Body = new TextPart { Text = msgbody };
+
+					using var client = new SmtpClient();
+					client.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTlsWhenAvailable);
+					client.Authenticate("huzaifairfan2144@gmail.com", value);
+					client.Send(msg);
+
+					db.TblClientRegisters.Add(auth);
+					db.SaveChanges();
+					return RedirectToAction("Confirmation");
+				}
+				else
+				{
+					return RedirectToAction("Index");
+
+				}
+			}
             return View();
 		}
 		[HttpGet]

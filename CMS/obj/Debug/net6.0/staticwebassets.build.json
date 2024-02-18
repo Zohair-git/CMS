@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dkY2gEQHaCY/ZSMJySRXAyQLhP8G/zkKcGWdYjaWWHE=",
+  "Hash": "C8CHqOIizWqDT7NXhJ9DN/44m4jthSgdtRm8ALvTwzg=",
   "Source": "CMS",
   "BasePath": "_content/CMS",
   "Mode": "Default",
@@ -2176,6 +2176,23 @@
       "OriginalItemSpec": "wwwroot\\BannerImgs\\37c21d43-e895-4fc9-b5ad-9e6d8adf9e56Banner-944x512.jpg"
     },
     {
+      "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\BannerImgs\\88cf4fa0-7f83-4477-9225-c4ecf5730355Capt.PNG",
+      "SourceId": "CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\",
+      "BasePath": "_content/CMS",
+      "RelativePath": "BannerImgs/88cf4fa0-7f83-4477-9225-c4ecf5730355Capt.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BannerImgs\\88cf4fa0-7f83-4477-9225-c4ecf5730355Capt.PNG"
+    },
+    {
       "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\BannerImgs\\bfe911fa-f9b2-481c-a9c6-b19f96634e2fBanner-944x512.jpg",
       "SourceId": "CMS",
       "SourceType": "Discovered",
@@ -3298,6 +3315,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\myImages\\00351fd0-0372-45b6-8b3b-adfc881d59bdkkPHxg.png",
+      "SourceId": "CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\",
+      "BasePath": "_content/CMS",
+      "RelativePath": "myImages/00351fd0-0372-45b6-8b3b-adfc881d59bdkkPHxg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\myImages\\00351fd0-0372-45b6-8b3b-adfc881d59bdkkPHxg.png"
+    },
+    {
       "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\myImages\\038f2f17-24a2-458b-933e-2b3b0b05c978Stethoscope-2.png",
       "SourceId": "CMS",
       "SourceType": "Discovered",
@@ -3364,6 +3398,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\myImages\\49818494-0570-494b-b60e-912df71dc45bBanner-944x512.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\myImages\\639b5979-8b2c-4447-9626-995b40ea201ehealthylaws.PNG",
+      "SourceId": "CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\",
+      "BasePath": "_content/CMS",
+      "RelativePath": "myImages/639b5979-8b2c-4447-9626-995b40ea201ehealthylaws.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\myImages\\639b5979-8b2c-4447-9626-995b40ea201ehealthylaws.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\myImages\\6b32e5dd-9732-4b1b-af9e-9e741aedbbd9healthylaws.PNG",
+      "SourceId": "CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\",
+      "BasePath": "_content/CMS",
+      "RelativePath": "myImages/6b32e5dd-9732-4b1b-af9e-9e741aedbbd9healthylaws.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\myImages\\6b32e5dd-9732-4b1b-af9e-9e741aedbbd9healthylaws.PNG"
     },
     {
       "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\myImages\\7c8b8fd3-63ee-4a75-a65d-08612f21a248Stethoscope-2.png",
@@ -3466,6 +3534,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\myImages\\d4f2b377-f262-4e22-b09c-5d34252bb8ceBanner-944x512.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\myImages\\f45df0a0-71c1-4cad-baf7-5a3f8dac451ekkPHxg.png",
+      "SourceId": "CMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\",
+      "BasePath": "_content/CMS",
+      "RelativePath": "myImages/f45df0a0-71c1-4cad-baf7-5a3f8dac451ekkPHxg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\myImages\\f45df0a0-71c1-4cad-baf7-5a3f8dac451ekkPHxg.png"
     },
     {
       "Identity": "C:\\Users\\Owner\\Downloads\\Zohair\\CMS\\CMS\\wwwroot\\myImages\\f47f7ee3-1bab-411b-84e6-6d5a392da24b6138LurvciL._AC_SL1500_.jpg",

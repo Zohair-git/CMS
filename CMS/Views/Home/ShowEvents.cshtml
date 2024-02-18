@@ -70,7 +70,9 @@
 
 			@foreach (var item in Model)
                         {
-
+							if (item.Date > DateTime.Now)
+					{
+						
 				<div class="strip_list">
                         @* <img src="~/bannerimgs/bfe911fa-f9b2-481c-a9c6-b19f96634e2fbanner-944x512.jpg" /> *@
 					<figure>
@@ -97,6 +99,8 @@
 
 					</ul>
 				</div>
+					}
+
 
 
 				}

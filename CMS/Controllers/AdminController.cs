@@ -396,7 +396,37 @@ namespace CMS.Controllers
 
 			}
 		}
+		public IActionResult Orders()
+		{
+			  var session_name = cont.HttpContext.Session.GetString("name");
+            var session_username = cont.HttpContext.Session.GetString("username");
+            var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+            TempData["Name"] = session_name;
+            TempData["username"] = session_username;
+            TempData["id"] = session_id;
+
+            if (session_username != null)
+            {
+                return View(_context.TblOrders.ToList());
+            }
+            else
+            {
+                return RedirectToAction("Login", "Admin");
+
+            }
+        }
 		[HttpGet]
+		public IActionResult Purchases(int id)
+		{
+            var model =  _context.TblCheckouts.Where(x => x.OrderId == id).ToList();
+            return View(model);
+
+
+        }
+
+
+        [HttpGet]
 		public IActionResult AboutUs()
 		{
 			var session_name = cont.HttpContext.Session.GetString("name");

@@ -21,7 +21,7 @@
 @foreach (var tempData in Model)
 {
     
-    if (tempData.Status == 1)
+    if (tempData.Status == 1 && tempData.Event.Date > DateTime.Now)
     {
         
     
@@ -64,11 +64,15 @@
             </section>
         </div>
     </div>
-</div>
-    }else
+        </div>
+    }else if(tempData.Event.Date < DateTime.Now)
     {
-        
-            <h5 class="text-center mt-4">Wait For Pass</h5>
+
+        <h5 class="text-center mt-4">Expired</h5>
+    }
+    else
+    {
+        <h5>Wait For Pass</h5>
     }
 
 }

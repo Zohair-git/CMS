@@ -1,7 +1,7 @@
 ﻿@{
     Layout = "_UserLayout";
 }
-
+@model CMS.Models.TblOrder
 <div id="breadcrumb">
     <div class="container">
         <ul>
@@ -12,6 +12,12 @@
     </div>
 </div>
 <div class="container mt-5">
+
+    @if (ViewBag.Items == null)
+    {
+        <h1>No item Added</h1>
+    }else{
+    <form method="post">
 <table class="table">
     <thead>
         <tr>
@@ -23,25 +29,51 @@
         </tr>
     </thead>
     <tbody>
-            
+                    @{
+                        // Initialize total quantity variable
+                        int totalQuantity = 0;
+                    }
+
     @foreach (var item in ViewBag.Items)
     {
+        
+             totalQuantity += item.Quantity;
+        
         <tr>
             <th scope="row">@item.Id</th>
             <td>@item.Name</td>
             <td>@item.Description</td>
                 
             <td>@item.Price</td>
-                    <td>
-                         
-                        
+                    <td>@item.Quantity</td>
                             
-                            <input  name="qty" type=number min=1 max=10>
-                           
-                      
-                    </td>
         </tr>
     }
     </tbody>
 </table>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <lable>Enter Full Address</lable>
+            <input type="text" asp-for="Address" class="form-control" />
+        </div>
+                    <div class="col-6">
+                        <input class="form-control" type="hidden" asp-for="Date" id="e">
+                        <input class="form-control" type="hidden" asp-for="UId" value="@TempData["id"]">
+                        <input class="form-control" type="hidden" asp-for="TotalPurchase" value="@totalQuantity">
+
+                    </div>
+    </div>
+    <input type="submit" class="btn btn-primary mt-3" asp-controller="Home" asp-action="Checkout" />
+
 </div>
+
+
+
+            </form>
+            }
+</div>
+
+<script>
+    document.getElementById('e').value = new Date().toISOString().substring(0, 10);
+</script>

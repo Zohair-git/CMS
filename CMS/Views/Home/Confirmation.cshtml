@@ -24,9 +24,17 @@
 								<path d="M17.417,37.778l9.93,9.909l25.444-25.393" style="stroke-dasharray:50px, 50px; stroke-dashoffset: 0px;"></path>
 							</g>
 						</svg>
-					</div>
+					</div>@if (TempData["Order"] != null)
+					{
+						<h2>
+							Order has been placed
+						</h2>
+					}
+					else
+					{
 					<h2>Account Created!</h2>
-					<p>You can now Login by checking your Mail</p>
+						
+					}
 				</div>
 			</div>
 		</div>
