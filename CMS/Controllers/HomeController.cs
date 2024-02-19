@@ -240,10 +240,12 @@ namespace CMS.Controllers
 						OrderId = orderId
                         // Set other properties accordingly
                     };
+					item.Quantity = 
 					var ghbhb = "jhujbj";
 				db.TblCheckouts.Add(checkoutItem);
 
                 }
+			
 
 				TempData["Order"] = "Your Order has been placed";
 
