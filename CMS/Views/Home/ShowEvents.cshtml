@@ -70,7 +70,7 @@
 
 			@foreach (var item in Model)
                         {
-							if (item.Date > DateTime.Now)
+							if (item.Date > DateTime.Now && item.TotalSeats > 0)
 					{
 						
 				<div class="strip_list">

@@ -37,7 +37,7 @@
     @foreach (var item in ViewBag.Items)
     {
         
-             totalQuantity += item.Quantity;
+             totalQuantity += item.Quantity * item.Price;
         
         <tr>
             <th scope="row">@item.Id</th>
@@ -58,9 +58,13 @@
             <input type="text" asp-for="Address" class="form-control" />
         </div>
                     <div class="col-6">
+                        <lable>Price</lable>
+
                         <input class="form-control" type="hidden" asp-for="Date" id="e">
                         <input class="form-control" type="hidden" asp-for="UId" value="@TempData["id"]">
-                        <input class="form-control" type="hidden" asp-for="TotalPurchase" value="@totalQuantity">
+                        <input class="form-control" type="hidden"  asp-for="TotalPurchase" value="@totalQuantity">
+                        <input class="form-control" type="text" disabled  value="@totalQuantity">
+
 
                     </div>
     </div>

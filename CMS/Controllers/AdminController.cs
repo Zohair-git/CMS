@@ -330,7 +330,7 @@ namespace CMS.Controllers
 
 			}
         }
-        public IActionResult Approve( int id)
+        public IActionResult Approve( int id )
         {
             var booking = _context.TblEventBookings.FirstOrDefault(x => x.Id == id);
 
@@ -338,8 +338,23 @@ namespace CMS.Controllers
             {
                 booking.Status = 1;
                 _context.SaveChanges();
-                return RedirectToAction("Bookings");
-            }
+              
+           
+			var seatD = _context.TblEventBookings.FirstOrDefault(x => x.Id == id);
+
+			var bc = seatD.EventId;
+			var seatdec = _context.TblUpcomingEvents.FirstOrDefault(y => y.Id == bc);
+
+			var seats = seatdec.TotalSeats;
+
+			var updatedseat = seats - 1;
+
+			seatdec.TotalSeats = updatedseat;
+			_context.SaveChanges();
+			return RedirectToAction("Bookings");
+			}
+
+
 			return View();
         }
         public IActionResult Reject(int id)
@@ -406,20 +421,37 @@ namespace CMS.Controllers
             TempData["username"] = session_username;
             TempData["id"] = session_id;
 
+			var ab = _context.TblOrders.Where(x => x.Status == 0).ToList();
+
             if (session_username != null)
             {
-                return View(_context.TblOrders.ToList());
+                return View(ab);
             }
             else
             {
                 return RedirectToAction("Login", "Admin");
 
             }
+		}
+		[HttpGet]
+		public IActionResult OrderUpdate(int id)
+		{
+            var delivered = _context.TblOrders.FirstOrDefault(x => x.Id == id);
+
+            if (delivered != null)
+            {
+                delivered.Status = 1;
+                _context.SaveChanges();
+                return RedirectToAction("Orders");
+            }
+            return View();
         }
+
 		[HttpGet]
 		public IActionResult Purchases(int id)
 		{
             var model =  _context.TblCheckouts.Where(x => x.OrderId == id).ToList();
+
             return View(model);
 
 

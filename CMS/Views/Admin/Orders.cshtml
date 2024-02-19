@@ -28,8 +28,9 @@
                                 <th>U-Id</th>
                                 <th>Address</th>
                                 <th>T-Purchase</th>
-                                <th>Status</th>
                                 <th>View</th>
+                                <th>Status</th>
+
  
                             </tr>
                         </thead>
@@ -43,8 +44,8 @@
                                     <td>@tempData.UId</td>
                                     <td>@tempData.Address</td>
                                     <td>@tempData.TotalPurchase</td>
-                                    <td>@tempData.Status</td>
                                     <td><a class="btn btn-primary" asp-action="Purchases" asp-controller="Admin" asp-route-id="@tempData.Id">View Purchase</a></td>
+                                    <td><a class="btn btn-success" asp-action="OrderUpdate" asp-controller="Admin" asp-route-id="@tempData.Id">Delivered</a></td>
                                     
 
 
