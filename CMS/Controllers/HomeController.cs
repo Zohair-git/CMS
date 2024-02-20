@@ -362,8 +362,8 @@ namespace CMS.Controllers
 		{
 			var front_email = auth.Email;
             var front_name = auth.Name;
-            var msgbody = " Hello"+ front_name + "! Your Account has been registered!" +
-				" Best Regards, Providence Clinic" +
+            var msgbody = " Hello "+ front_name + "! Your Account has been registered!  " +
+				" Best Regards, Providence Clinic  " +
 				"Welcome to Providence Clinic";
 
 
@@ -389,7 +389,7 @@ namespace CMS.Controllers
 					var msg = new MimeMessage();
 					msg.From.Add(new MailboxAddress("Providence Clinic", "huzaifairfan2144@gmail.com"));
 					msg.To.Add(new MailboxAddress(front_name, front_email));
-					msg.Subject = "Providence Clinic Account Verification";
+					msg.Subject = "Providence Clinic Account Registration";
 					msg.Body = new TextPart { Text = msgbody };
 
 					using var client = new SmtpClient();
