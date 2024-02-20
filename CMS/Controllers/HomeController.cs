@@ -165,7 +165,7 @@ namespace CMS.Controllers
                 {
                     Name = product.ProductName,
                     Description = product.Description,
-                    Price = (int)product.Price,
+                    Price = (int)product.Saleprice,
                     Quantity = quantityToAdd,
 					Image = product.Image,
                     Id = product.Id
@@ -240,7 +240,7 @@ namespace CMS.Controllers
 						OrderId = orderId
                         // Set other properties accordingly
                     };
-					item.Quantity = 
+				
 					var ghbhb = "jhujbj";
 				db.TblCheckouts.Add(checkoutItem);
 
@@ -362,8 +362,13 @@ namespace CMS.Controllers
 		{
 			var front_email = auth.Email;
             var front_name = auth.Name;
-            var msgbody = "How you doin Providence Clinic";
-            var pass_one = auth.Password;
+            var msgbody = " Hello"+ front_name + "! Your Account has been registered!" +
+				" Best Regards, Providence Clinic" +
+				"Welcome to Providence Clinic";
+
+
+
+			var pass_one = auth.Password;
             var pass_two = confrmpassword;
 
 

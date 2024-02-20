@@ -3,6 +3,9 @@ using CMS.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+using Org.BouncyCastle.Crypto.Signers;
+using System.Globalization;
 
 namespace CMS.Controllers
 {
@@ -31,13 +34,41 @@ namespace CMS.Controllers
 
 			if (session_username != null)
 			{
-                return View();
-			}
-			else
+                // Assuming you have access to your DbContext instance (db)
+
+                // Query tbl_orders and tbl_event_bookings to retrieve sales data
+                var orders = _context.TblOrders.ToList();
+                //var eventBookings = _context.TblEventBookings.ToList();
+
+                // Combine sales data from both tables (assuming TotalPurchase represents the sales amount)
+                var allSales = orders.Select(o => new { Date = o.Date, Amount = o.TotalPurchase }).ToList();
+
+                // Group sales data by month
+                var monthlySales = allSales.GroupBy(s => new { Month = s.Date.Month, Year = s.Date.Year })
+                                           .Select(g => new { Month = g.Key.Month, Year = g.Key.Year, TotalSales = g.Sum(s => s.Amount) })
+                                           .OrderBy(g => g.Year).ThenBy(g => g.Month)
+                                           .ToList();
+
+                // Extract labels and data for Chart.js
+                var labels = monthlySales.Select(g => $"{CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(g.Month)} {g.Year}");
+                var data = monthlySales.Select(g => g.TotalSales);
+
+                // Serialize labels and data to JSON for Chart.js
+                var jsonLabels = JsonConvert.SerializeObject(labels);
+                var jsonData = JsonConvert.SerializeObject(data);
+				var ab = new MonthlySalesViewModel { Labels = jsonLabels, Data = jsonData };
+
+                IEnumerable<MonthlySalesViewModel> abcd = new List<MonthlySalesViewModel>();
+
+                return View(ab);
+
+            }
+            else
 			{
 				return RedirectToAction("Login", "Admin");
 
 			}
+
 
         }
 		public IActionResult Logout()
@@ -208,7 +239,8 @@ namespace CMS.Controllers
 
 			if (session_username != null)
 			{
-			return View(_context.TblProducts.ToList());
+				var model = _context.TblProducts.ToList();
+			return View(model);
 			}
 			else
 			{
@@ -420,12 +452,11 @@ namespace CMS.Controllers
             TempData["Name"] = session_name;
             TempData["username"] = session_username;
             TempData["id"] = session_id;
-
-			var ab = _context.TblOrders.Where(x => x.Status == 0).ToList();
+			
 
             if (session_username != null)
             {
-                return View(ab);
+                return View(_context.TblOrders.Where(x => x.Status == 0).ToList());
             }
             else
             {

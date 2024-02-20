@@ -17,11 +17,10 @@
     {
         <h1>No item Added</h1>
     }else{
-    <form method="post">
+   
 <table class="table">
     <thead>
         <tr>
-            <th scope="col">#</th>
             <th scope="col">Name</th>
             <th scope="col">Description</th>
             <th scope="col">Price</th>
@@ -40,7 +39,6 @@
              totalQuantity += item.Quantity * item.Price;
         
         <tr>
-            <th scope="row">@item.Id</th>
             <td>@item.Name</td>
             <td>@item.Description</td>
                 
@@ -51,30 +49,35 @@
     }
     </tbody>
 </table>
-<div class="container">
-    <div class="row">
-        <div class="col-6">
-            <lable>Enter Full Address</lable>
-            <input type="text" asp-for="Address" class="form-control" />
-        </div>
-                    <div class="col-6">
-                        <lable>Price</lable>
-
-                        <input class="form-control" type="hidden" asp-for="Date" id="e">
-                        <input class="form-control" type="hidden" asp-for="UId" value="@TempData["id"]">
-                        <input class="form-control" type="hidden"  asp-for="TotalPurchase" value="@totalQuantity">
-                        <input class="form-control" type="text" disabled  value="@totalQuantity">
-
-
+<br />
+<div class="col-md-5">
+     <div class="container" style="border: 2px dashed grey; padding:20px; border-radius:5px;">
+        <form method="post">
+                <fieldset>
+                    <legend>Proceed to Checkout</legend>
+                    <div class="mb-3">
+                        <label for="disabledTextInput" class="form-label">Total Purchase</label>
+                    <input class="form-control" type="text" disabled value="Rs. @totalQuantity">
+                    <input class="form-control" type="hidden" asp-for="TotalPurchase" value="@totalQuantity">
+                    <input class="form-control" type="hidden" asp-for="Date" id="e">
+                    <input class="form-control" type="hidden" asp-for="UId" value="@TempData["id"]">
                     </div>
-    </div>
-    <input type="submit" class="btn btn-primary mt-3" asp-controller="Home" asp-action="Checkout" />
+                    <div class="mb-3">
+                        <label >Enter Address</label>
+                    <textarea asp-for="Address" class="form-control"></textarea>
+                    </div>
 
-</div>
-
-
-
+                <input type="submit" class="btn_1" asp-controller="Home" asp-action="Checkout" />
+                </fieldset>
             </form>
+
+            </div>
+
+        </div>
+
+
+
+
             }
 </div>
 

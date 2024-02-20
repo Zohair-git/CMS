@@ -22,13 +22,13 @@
 				<div class="col-md-6">
 					<div class="form-group">
 						<label>Topic</label>
-						<input type="text" asp-for = "Topic" class="form-control" placeholder="Event Topic">
+							<input type="text" asp-for="Topic" class="form-control" placeholder="Event Topic" required>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
 						<label>Detail</label>
-						<input type="text" asp-for="Details" class="form-control" placeholder="Event Details">
+							<input type="text" asp-for="Details" class="form-control" placeholder="Event Details" required>
 					</div>
 				</div>
 			</div>
@@ -37,13 +37,13 @@
 				<div class="col-md-6">
 					<div class="form-group">
 						<label>Date</label>
-						<input type="date" asp-for= "Date" class="form-control" placeholder="Date">
+							<input type="date" asp-for="Date" class="form-control" placeholder="Date" required>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
 						<label>Time</label>
-						<input type="time" asp-for = "Time" class="form-control" placeholder="Time">
+							<input type="time" asp-for="Time" class="form-control" placeholder="Time" required>
 					</div>
 				</div>
 			</div>
@@ -53,13 +53,13 @@
 				<div class="col-md-6">
 					<div class="form-group">
 						<label>T-Seats</label>
-						<input type="text" asp-for = "TotalSeats" min="100" max="2000" class="form-control" placeholder="Total Seats">
+							<input type="number" asp-for="TotalSeats" min="100" max="2000" class="form-control" placeholder="Total Seats" required>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
 						<label>Staff/Faculty</label>
-						<input type="text" asp-for ="Faculty" class="form-control" placeholder="Faculty">
+							<input type="text" asp-for="Faculty" class="form-control" placeholder="Faculty" required>
 					</div>
 				</div>
 			</div>
@@ -69,20 +69,20 @@
 				<div class="col-md-6">
 					<div class="form-group">
 						<label>Fees</label>
-						<input type="text" asp-for ="EntryFee" class="form-control" placeholder="Fees">
+							<input type="number" asp-for="EntryFee" class="form-control" placeholder="Fees" required>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
 						<label>Location</label>
-						<input type="text" asp-for="Location" class="form-control" placeholder="Location">
+							<input type="text" asp-for="Location" class="form-control" placeholder="Location" required>
 					</div>
 				</div>
 
 				<div class="col-md-12">
 					<div class="form-group">
 						<label>Banner</label>
-						<input type="file" name="banner" class="form-control">
+						<input type="file" name="banner" class="form-control" required>
 					</div>
 				</div>
 			</div>

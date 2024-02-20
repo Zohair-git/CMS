@@ -11,6 +11,8 @@ namespace CMS.Models
         public string? Img { get; set; }
         public int? Status { get; set; }
 
+        public DateTime? Date { get; set; }
+
         public virtual TblUpcomingEvent? Event { get; set; }
         public virtual TblClientRegister? User { get; set; }
     }
