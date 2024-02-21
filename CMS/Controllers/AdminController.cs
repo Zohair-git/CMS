@@ -478,8 +478,19 @@ namespace CMS.Controllers
 			TempData["Name"] = session_name;
 			TempData["username"] = session_username;
 			TempData["id"] = session_id;
-			var data = _context.TblFeedbacks.Include(x => x.PIdNavigation).ToList();
-			if (session_username != null)
+		 	AllTables data = new AllTables()
+			 {
+
+			 feedback_list =  _context.TblFeedbacks.Include(x=>x.PIdNavigation).ToList(),
+             reviewUsers = new List<string>()
+             };
+            foreach (var feedback in data.feedback_list)
+            {
+                var user = _context.TblClientRegisters.FirstOrDefault(u => u.Id == feedback.UserId);
+                string name = user.Name;
+                data.reviewUsers.Add(name);
+            }
+            if (session_username != null)
 			{
 				return View(data);
 			}
