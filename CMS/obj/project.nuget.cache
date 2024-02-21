@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5FIrGd8vVHXJCV4I+j97CNqsDK3w0hb2YIkSslD1TFU9vMDeiD+a4vUEubd4gi0M5eeiMQDnAoS29s4nuYubWQ==",
+  "dgSpecHash": "+F9a//3w6vPXS52fKkTo0XCZkGodzzGgCBbWLOPVdgDpa3XmR820WH/BfuCsHht5HY738pif2sITpN32hruNKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asp\\Documents\\GitHub\\CMS\\CMS\\CMS.csproj",
+  "projectFilePath": "C:\\Users\\asp\\Documents\\e-project\\CMS\\CMS\\CMS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asp\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\asp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

@@ -29,10 +29,14 @@ namespace CMS.Data
         public virtual DbSet<TblUpcomingEvent> TblUpcomingEvents { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        =>
-           
-                optionsBuilder.UseSqlServer();
-         
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=db_cms;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            }
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<TblAbout>(entity =>
@@ -210,9 +214,7 @@ namespace CMS.Data
             {
                 entity.ToTable("tbl_feedback");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedOnAdd()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.PId).HasColumnName("p_id");
 
@@ -227,12 +229,6 @@ namespace CMS.Data
                     .HasColumnName("title");
 
                 entity.Property(e => e.UserId).HasColumnName("user_id");
-
-                entity.HasOne(d => d.IdNavigation)
-                    .WithOne(p => p.TblFeedback)
-                    .HasForeignKey<TblFeedback>(d => d.Id)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_tbl_feedback_tbl_feedback");
 
                 entity.HasOne(d => d.PIdNavigation)
                     .WithMany(p => p.TblFeedbacks)

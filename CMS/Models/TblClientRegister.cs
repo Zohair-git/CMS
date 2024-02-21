@@ -17,7 +17,6 @@ namespace CMS.Models
         public string? Password { get; set; }
         public string? Image { get; set; }
 
-        public virtual TblFeedback TblFeedback { get; set; } = null!;
         public virtual ICollection<TblEventBooking> TblEventBookings { get; set; }
     }
 }

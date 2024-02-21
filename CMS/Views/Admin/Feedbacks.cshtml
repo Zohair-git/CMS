@@ -2,7 +2,7 @@
 
     Layout = "_AdminLayout";
 }
-
+@model IEnumerable<TblFeedback>
 
 <div class="content-wrapper">
     <div class="container-fluid">
@@ -36,15 +36,19 @@
                         </thead>
 
                         <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Panadol</td>
-                                <td>Edinburgh hhh</td>
-                                <td>21-2-24</td>
-                               
+                            @foreach (var temdat in Model)
+                            {
+                                <tr>
+                                    <td>@temdat.Id</td>
+                                    <td>@temdat.UserId</td>
+                                    <td>@temdat.PId</td>
+                                    <td>@temdat.Text</td>
 
 
+
+                          
                             </tr>
+  }
 
                         </tbody>
                     </table>

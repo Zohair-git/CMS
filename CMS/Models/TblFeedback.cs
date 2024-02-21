@@ -12,7 +12,6 @@ namespace CMS.Models
         public string? Text { get; set; }
         public int? PId { get; set; }
 
-        public virtual TblClientRegister IdNavigation { get; set; } = null!;
         public virtual TblProduct? PIdNavigation { get; set; }
     }
 }

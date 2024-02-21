@@ -49,6 +49,11 @@ namespace CMS.Controllers
 
             TempData["ordercount"] = fetchcountbooking;
 
+            var fetchreview = _context.TblFeedbacks.ToList();
+
+            int fetchcounrivie = fetchreview.Count;
+
+            TempData["orderrivew"] = fetchcounrivie;
 
 
 
@@ -193,9 +198,9 @@ namespace CMS.Controllers
 			}
         }
 		[HttpPost]
-		public async Task<IActionResult> ProductAdd(AllTables model, List<IFormFile> imgs, IFormFile banner)
+		public async Task<IActionResult ProductAdd(AllTables model, List<IFormFile> imgs, IFormFile banner)
 		{
-			var assddssad = model.productss.ProductName;
+			var assd = model.productss.ProductName;
 
 			if (banner != null && banner.Length > 0)
 			{
@@ -464,7 +469,7 @@ namespace CMS.Controllers
 			}
 		}
 
-
+		[HttpGet]
 		public IActionResult Feedbacks()
 		{
 			var session_name = cont.HttpContext.Session.GetString("name");
@@ -477,7 +482,7 @@ namespace CMS.Controllers
 
 			if (session_username != null)
 			{
-				return View();
+				return View(_context.TblFeedbacks.ToList());
 			}
 			else
 			{

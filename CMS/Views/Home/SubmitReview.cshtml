@@ -2,7 +2,7 @@
 
     Layout = "_UserLayout";
 }
-@model CMS.Models.TblFeedback;
+@* @model CMS.Models.TblFeedback; *@
 <main>
 	<div id="breadcrumb">
 		<div class="container">
@@ -20,16 +20,26 @@
 			<div class="col-lg-8">
 				<div class="box_general_3 write_review">
 					<h1>Write a review for Dr. Julia Smooths</h1>
+						@if (TempData["review_submitted"] != null)
+						{
+							<div class="alert alert-success">
+								@TempData["review_submitted"]
+							</div>
+						}
 					<div class="rating_submit">
 						<div class="form-group">
 							<label class="d-block">Overall rating</label>
 							<span class="rating">
-								<input type="radio" class="rating-input" id="5_star" asp-route-rating="5" name="rating-input" ><label for="5_star" class="rating-star"></label>
-									<input type="radio" class="rating-input" id="4_star" asp-route-rating="4" name="rating-input"><label for="4_star" class="rating-star"></label>
-									<input type="radio" class="rating-input" id="3_star" asp-route-rating="3" name="rating-input"><label for="3_star" class="rating-star"></label>
-									<input type="radio" class="rating-input" asp-route-rating="2" name="rating-input"><label for="2_star" class="rating-star"></label>
-									<input type="radio" class="rating-input" asp-route-rating="1" name="rating-input"><label for="1_star" class="rating-star"></label>
-							
+									<input type="radio" class="rating-input" id="5_star" value=5 name="rating_input">
+									<label for="5_star" class="rating-star"></label>
+									<input type="radio" class="rating-input" id="4_star" value=4 name="rating_input">
+									<label for="4_star" class="rating-star"></label>
+									<input type="radio" class="rating-input" id="3_star" value=3 name="rating_input">
+									<label for="3_star" class="rating-star"></label>
+									<input type="radio" class="rating-input" id="2_star" value=2 name="rating_input">
+									<label for="2_star" class="rating-star"></label>
+									<input type="radio" class="rating-input" value=1 id="1_star" name="rating_input">
+									<label for="1_star" class="rating-star"></label>	
 
 							</span>
 						</div>
@@ -37,11 +47,11 @@
 					<!-- /rating_submit -->
 					<div class="form-group">
 						<label>Title of your review</label>
-						<input class="form-control" asp-for="Title" type="text" placeholder="If you could say it in one sentence, what would you say?">
+							<input class="form-control" name="Title" type="text" placeholder="If you could say it in one sentence, what would you say?">
 					</div>
 					<div class="form-group">
 						<label>Your review</label>
-						<textarea class="form-control" asp-for="Text" style="height: 180px;" placeholder="Write your review here ..."></textarea>
+							<textarea class="form-control" name="Text" style="height: 180px;" placeholder="Write your review here ..."></textarea>
 					</div>
 					<hr>
 					<div class="form-group">
@@ -53,7 +63,7 @@
 							</label>
 						</div>
 					</div>
-					<button class="btn_1" id="submitButton">Submit review</button>
+					<button class="btn_1" type="submit" id="submitButton">Submit review</button>
 				</div>
 			</div>
 		</div>

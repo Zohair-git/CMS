@@ -41,7 +41,11 @@
                         <div class="card-body-icon">
                             <i class="fa fa-fw fa-star"></i>
                         </div>
-                        <div class="mr-5"><h5>11 New Reviews!</h5></div>
+                        @{
+                            int recordCounted = (int)TempData["orderrivew"];
+                        }
+
+                        <div class="mr-5"><h5>@recordCounted Reviews</h5></div>
                     </div>
                     <a class="card-footer text-white clearfix small z-1" href="reviews.html">
                         <span class="float-left">View Details</span>

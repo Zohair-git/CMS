@@ -439,7 +439,25 @@ namespace CMS.Controllers
 		{
 			return View();
 		}
-		
+		[HttpPost]
+		public IActionResult SubmitReview(int id, int rating_input, string Title, string Text
+			)
+		{
+			var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+			TblFeedback model = new TblFeedback
+			{
+				UserId = session_id,
+				Title = Title,
+				PId = id,
+				Rating = rating_input,
+				Text = Text
+			};
+			db.TblFeedbacks.Add(model);
+			db.SaveChanges();
+			TempData["review_submitted"] = "Review Submitted";
+			return RedirectToAction("SubmitReview");
+		}
 		[HttpGet]
 		public IActionResult ProductDetails(int Id)
 		{
@@ -455,12 +473,14 @@ namespace CMS.Controllers
 			client_register = db.TblClientRegisters.ToList(),
 			upcoming_events = db.TblUpcomingEvents.ToList(),
 			Images_list = db.TblImages.Where(x => x.PId == Id).ToList(),
-			productss = db.TblProducts.FirstOrDefault(x => x.Id == Id),
+				productss = db.TblProducts.FirstOrDefault(x => x.Id == Id),
 			imagess = db.TblImages.FirstOrDefault(x => x.PId == Id),
 			clientRegister = new TblClientRegister(),
 			upcomingEvent = new TblUpcomingEvent(),
 			bookingss = new TblEventBooking(),
 			};
+
+			
 			return View(main_model);
 		}
 
