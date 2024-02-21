@@ -27,23 +27,23 @@ namespace CMS.Data
         public virtual DbSet<TblOrder> TblOrders { get; set; } = null!;
         public virtual DbSet<TblProduct> TblProducts { get; set; } = null!;
         public virtual DbSet<TblUpcomingEvent> TblUpcomingEvents { get; set; } = null!;
-       
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-
-
-           =>     optionsBuilder.UseSqlServer();
-
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=db_cms;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            }
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<TblAbout>(entity =>
             {
-                entity.ToTable("tbl_about");
+                entity.HasNoKey();
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.ToTable("tbl_about");
 
                 entity.Property(e => e.Headingfour)
                     .IsUnicode(false)
@@ -74,8 +74,9 @@ namespace CMS.Data
                     .HasColumnName("imagethree");
 
                 entity.Property(e => e.Imagetwo)
-                    .IsUnicode(false)
-                    .HasColumnName("imagetwo");
+                    .HasMaxLength(10)
+                    .HasColumnName("imagetwo")
+                    .IsFixedLength();
 
                 entity.Property(e => e.MainTitle)
                     .HasMaxLength(50)
@@ -185,6 +186,8 @@ namespace CMS.Data
 
                 entity.Property(e => e.Id).HasColumnName("id");
 
+                entity.Property(e => e.Date).HasColumnType("datetime");
+
                 entity.Property(e => e.EventId).HasColumnName("event_id");
 
                 entity.Property(e => e.Img)
@@ -216,19 +219,13 @@ namespace CMS.Data
                     .ValueGeneratedOnAdd()
                     .HasColumnName("id");
 
-                entity.Property(e => e.PId).HasColumnName("p_id");
+                entity.Property(e => e.Pid).HasColumnName("pid");
 
-                entity.Property(e => e.Rating).HasColumnName("rating");
+                entity.Property(e => e.Text).IsUnicode(false);
 
-                entity.Property(e => e.Text)
-                    .IsUnicode(false)
-                    .HasColumnName("text");
+                entity.Property(e => e.Title).IsUnicode(false);
 
-                entity.Property(e => e.Title)
-                    .IsUnicode(false)
-                    .HasColumnName("title");
-
-                entity.Property(e => e.UserId).HasColumnName("user_id");
+                entity.Property(e => e.Userid).HasColumnName("userid");
 
                 entity.HasOne(d => d.IdNavigation)
                     .WithOne(p => p.TblFeedback)
@@ -236,9 +233,9 @@ namespace CMS.Data
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_tbl_feedback_tbl_feedback");
 
-                entity.HasOne(d => d.PIdNavigation)
+                entity.HasOne(d => d.RatingNavigation)
                     .WithMany(p => p.TblFeedbacks)
-                    .HasForeignKey(d => d.PId)
+                    .HasForeignKey(d => d.Rating)
                     .HasConstraintName("FK_tbl_feedback_tbl_products");
             });
 

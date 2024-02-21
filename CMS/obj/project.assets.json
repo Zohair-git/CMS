@@ -10098,24 +10098,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MAACOMPUTER\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\money\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\e-project-final\\CMS\\CMS\\CMS.csproj",
+      "projectUniqueName": "C:\\Users\\money\\OneDrive\\Desktop\\CMS\\CMS\\CMS.csproj",
       "projectName": "CMS",
-      "projectPath": "E:\\e-project-final\\CMS\\CMS\\CMS.csproj",
-      "packagesPath": "C:\\Users\\MAACOMPUTER\\.nuget\\packages\\",
-      "outputPath": "E:\\e-project-final\\CMS\\CMS\\obj\\",
+      "projectPath": "C:\\Users\\money\\OneDrive\\Desktop\\CMS\\CMS\\CMS.csproj",
+      "packagesPath": "C:\\Users\\money\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\money\\OneDrive\\Desktop\\CMS\\CMS\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\MAACOMPUTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\money\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10123,7 +10118,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10180,7 +10175,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

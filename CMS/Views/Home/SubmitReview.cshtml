@@ -14,7 +14,7 @@
 		</div>
 	</div>
 	<!-- /breadcrumb -->
-
+	<form method="post">
 	<div class="container margin_60_35">
 		<div class="row justify-content-center">
 			<div class="col-lg-8">
@@ -24,13 +24,12 @@
 						<div class="form-group">
 							<label class="d-block">Overall rating</label>
 							<span class="rating">
-								<input type="radio" class="rating-input" id="5_star" asp-route-id="5" name="rating-input" ><label for="5_star" class="rating-star"></label>
-								<input type="radio" class="rating-input" id="4_star" asp-route-id="4" name="rating-input" ><label for="4_star" class="rating-star"></label>
-								<input type="radio" class="rating-input" id="3_star" asp-route-id="3" name="rating-input"><label for="3_star" class="rating-star"></label>
-								<input type="radio" class="rating-input" asp-route-id="2" name="rating-input" ><label for="2_star" class="rating-star"></label>
-								<input type="radio" class="rating-input" asp-route-id="1" name="rating-input" ><label for="1_star" class="rating-star"></label>
-
-				<label for="1_star" class="rating-star"></label>
+								<input type="radio" class="rating-input" id="5_star" asp-route-rating="5" name="rating-input" ><label for="5_star" class="rating-star"></label>
+									<input type="radio" class="rating-input" id="4_star" asp-route-rating="4" name="rating-input"><label for="4_star" class="rating-star"></label>
+									<input type="radio" class="rating-input" id="3_star" asp-route-rating="3" name="rating-input"><label for="3_star" class="rating-star"></label>
+									<input type="radio" class="rating-input" asp-route-rating="2" name="rating-input"><label for="2_star" class="rating-star"></label>
+									<input type="radio" class="rating-input" asp-route-rating="1" name="rating-input"><label for="1_star" class="rating-star"></label>
+							
 
 							</span>
 						</div>
@@ -49,16 +48,28 @@
 						<div class="checkboxes add_bottom_30 add_top_15">
 							<label class="container_check">
 								I accept <a href="#0">terms and conditions and general policy</a>
-								<input type="checkbox">
+								<input type="checkbox" id="acceptCheckbox">
 								<span class="checkmark"></span>
 							</label>
 						</div>
 					</div>
-					<button class="btn_1" id="" disabled>Submit review</button>
+					<button class="btn_1" id="submitButton">Submit review</button>
 				</div>
 			</div>
 		</div>
 		<!-- /row -->
 	</div>
+	</form>
 	<!-- /container -->
 </main>
+<script>
+	// Get the checkbox and button elements
+	var acceptCheckbox = document.getElementById('acceptCheckbox');
+	var submitButton = document.getElementById('submitButton');
+
+	// Add an event listener to the checkbox
+	acceptCheckbox.addEventListener('change', function () {
+		// If checkbox is checked, enable the button; otherwise, disable it
+		submitButton.disabled = !acceptCheckbox.checked;
+	});
+</script>

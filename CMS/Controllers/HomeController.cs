@@ -434,13 +434,28 @@ namespace CMS.Controllers
 
 			return View();
 		}
+		[HttpGet]
 		public IActionResult SubmitReview()
 		{
 			return View();
 		}
+		[HttpPost]
+		public IActionResult SubmitReview(int id, TblFeedback model, int rating)
+		{
+			var session_id = cont.HttpContext.Session.GetInt32("session_id");
+			model.Userid = session_id;
+			model.Pid = id;
+			model.Rating = rating;
+			db.TblFeedbacks.Add(model);
+			db.SaveChanges();
+			return RedirectToAction("ProductDetails");
+		}
+
 		[HttpGet]
 		public IActionResult ProductDetails(int Id)
 		{
+			ViewBag.pid = Id;
+		
 			TempData["Name"] = cont.HttpContext.Session.GetString("name");
 			TempData["Email"] = cont.HttpContext.Session.GetString("email");
 			TempData["id"] = cont.HttpContext.Session.GetInt32("session_id");
