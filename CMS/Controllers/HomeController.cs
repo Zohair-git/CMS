@@ -473,14 +473,25 @@ namespace CMS.Controllers
 			client_register = db.TblClientRegisters.ToList(),
 			upcoming_events = db.TblUpcomingEvents.ToList(),
 			Images_list = db.TblImages.Where(x => x.PId == Id).ToList(),
-				productss = db.TblProducts.FirstOrDefault(x => x.Id == Id),
+			feedback_list = db.TblFeedbacks.Where(x => x.PId == Id).ToList(),
+			productss = db.TblProducts.FirstOrDefault(x => x.Id == Id),
 			imagess = db.TblImages.FirstOrDefault(x => x.PId == Id),
 			clientRegister = new TblClientRegister(),
 			upcomingEvent = new TblUpcomingEvent(),
 			bookingss = new TblEventBooking(),
+			reviewUsers = new List<string>()
 			};
 
-			
+			foreach (var feedback in main_model.feedback_list)
+			{
+				var user = db.TblClientRegisters.FirstOrDefault(u => u.Id == feedback.UserId);
+					string name = user.Name;
+				TempData["review_u"] = name;
+				main_model.reviewUsers.Add(name);
+			}
+
+			var a = "sdsa";
+
 			return View(main_model);
 		}
 

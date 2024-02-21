@@ -203,34 +203,95 @@
 
 								<hr>
 
-								
 
-							
 
+
+							@for (int i = 0; i < Model.feedback_list.Count(); i++)
+							{
 								<div class="review-box clearfix">
-									<figure class="rev-thumb"><img src="http://via.placeholder.com/150x150.jpg" alt="">
+									<figure class="rev-thumb"><img src="~/Usercss/img/user.jpg" alt="">
 									</figure>
 									<div class="rev-content">
 										<div class="rating">
-											<i class="icon-star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i>
+											@if(Model.feedback_list.ElementAt(i).Rating == 5){
+											<i class="icon-star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i>
+											}
+											else if (Model.feedback_list.ElementAt(i).Rating == 4)
+											{
+												<i class="icon-star voted"></i>
+
+												<i class="icon_star voted"></i>
+
+												<i class="icon_star voted"></i>
+
+												<i class="icon_star voted"></i>
+
+												<i class="icon_star"></i>
+											}
+											else if (Model.feedback_list.ElementAt(i).Rating == 3)
+											{
+												<i class="icon-star voted"></i>
+
+												<i class="icon_star voted"></i>
+
+												<i class="icon_star voted"></i>
+
+												<i class="icon_star "></i>
+
+												<i class="icon_star"></i>
+											}
+											else if (Model.feedback_list.ElementAt(i).Rating == 2)
+											{
+												<i class="icon-star voted"></i>
+
+												<i class="icon_star voted"></i>
+
+												<i class="icon_star "></i>
+
+												<i class="icon_star "></i>
+
+												<i class="icon_star"></i>
+											}
+											else if (Model.feedback_list.ElementAt(i).Rating == 1)
+											{
+												<i class="icon-star voted"></i>
+
+												<i class="icon_star"></i>
+
+												<i class="icon_star"></i>
+
+												<i class="icon_star"></i>
+
+												<i class="icon_star"></i>
+											}
+											else
+											{
+												
+											}
 										</div>
 										<div class="rev-info">
-											sd – March 31, 2016
+											@Model.reviewUsers[i]
 										</div>
 										<div class="rev-text">
-											<p>dsadadasd
-												
+											<p>
+												@Model.feedback_list.ElementAt(i).Text
 											</p>
 										</div>
-									</div>
+									</div>	
 								</div>
-							
+							}
 								<!-- End review-box -->
 							</div>
 							<!-- End review-container -->
 							<hr>
-						<div class="text-end"><a asp-action="SubmitReview" asp-route-id="@ViewBag.pid" asp-controller="Home" class="btn_1">Submit review</a></div>
-						</div>
+						@if (TempData["id"] != null){ 
+							<div class="text-end"><a asp-action="SubmitReview" asp-route-id="@ViewBag.pid" asp-controller="Home" class="btn_1">Submit review</a></div>
+						}
+						else
+						{
+							
+						}
+					</div>
 					</div>
 					<!-- /section_2 -->
 				</div>
