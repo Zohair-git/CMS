@@ -67,6 +67,11 @@
 										{
 											<div class="text-end"><a asp-action="Login"  asp-controller="Home" class="btn_1">Add To Cart</a></div>
 										}
+										else if (Model.productss.Stock == 0)
+										{
+											<h6>Out Of Stock</h6>
+
+										}
 										else
 										{
 										

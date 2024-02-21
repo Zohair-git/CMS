@@ -32,7 +32,27 @@ namespace CMS.Controllers
 			TempData["username"] = session_username;
 			TempData["id"] = session_id;
 
-			if (session_username != null)
+			var fetchuser = _context.TblClientRegisters.ToList();
+			int fetchCountuser = fetchuser.Count;
+
+			TempData["usercount"] = fetchCountuser;
+
+			var fetchorder = _context.TblOrders.Where(x => x.Status == 0).ToList();
+
+			int fetchcountordre = fetchorder.Count;
+
+			TempData["ordercount"] = fetchcountordre;
+
+            var fetchbooking = _context.TblEventBookings.ToList();
+
+            int fetchcountbooking = fetchbooking.Count;
+
+            TempData["ordercount"] = fetchcountbooking;
+
+
+
+
+            if (session_username != null)
 			{
                 // Assuming you have access to your DbContext instance (db)
 
@@ -127,6 +147,28 @@ namespace CMS.Controllers
 
 
             return View();
+        }
+		[HttpGet]
+		public IActionResult Stock()
+		{
+            var session_name = cont.HttpContext.Session.GetString("name");
+            var session_username = cont.HttpContext.Session.GetString("username");
+            var session_id = cont.HttpContext.Session.GetInt32("session_id");
+
+            TempData["Name"] = session_name;
+            TempData["username"] = session_username;
+            TempData["id"] = session_id;
+
+
+            if (session_username != null)
+            {
+                return View(_context.TblProducts.ToList());
+            }
+            else
+            {
+                return RedirectToAction("Login", "Admin");
+
+            }
         }
 
         [HttpGet]
@@ -473,8 +515,24 @@ namespace CMS.Controllers
             {
                 delivered.Status = 1;
                 _context.SaveChanges();
+          
+
+			var stock = _context.TblCheckouts.FirstOrDefault(x => x.OrderId == id);
+
+			var stockname = stock.PName;
+			var stockpqty = stock.PQty;
+
+			var stockminuss = _context.TblProducts.FirstOrDefault(x => x.ProductName == stockname);
+
+			var stockqty = stockminuss.Stock;
+
+			var updatedstock = stockqty - stockpqty;
+
+			stockminuss.Stock = updatedstock;
+            _context.SaveChanges();
                 return RedirectToAction("Orders");
             }
+
             return View();
         }
 

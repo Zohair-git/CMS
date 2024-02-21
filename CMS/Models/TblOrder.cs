@@ -11,7 +11,7 @@ namespace CMS.Models
         }
 
         public int Id { get; set; }
-        public DateTime? Date { get; set; }
+        public DateTime Date { get; set; }
         public int? UId { get; set; }
         public string? Address { get; set; }
         public int? TotalPurchase { get; set; }
