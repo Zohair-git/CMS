@@ -198,9 +198,9 @@ namespace CMS.Controllers
 			}
         }
 		[HttpPost]
-		public async Task<IActionResult ProductAdd(AllTables model, List<IFormFile> imgs, IFormFile banner)
+		public async Task<IActionResult> ProductAdd(AllTables model, List<IFormFile> imgs, IFormFile banner)
 		{
-			var assd = model.productss.ProductName;
+			var assddss = model.productss.ProductName;
 
 			if (banner != null && banner.Length > 0)
 			{
