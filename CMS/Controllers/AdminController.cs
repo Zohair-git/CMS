@@ -478,10 +478,10 @@ namespace CMS.Controllers
 			TempData["Name"] = session_name;
 			TempData["username"] = session_username;
 			TempData["id"] = session_id;
-
+			var data = _context.TblFeedbacks.Include(x => x.PIdNavigation).ToList();
 			if (session_username != null)
 			{
-				return View(_context.TblFeedbacks.ToList());
+				return View(data);
 			}
 			else
 			{

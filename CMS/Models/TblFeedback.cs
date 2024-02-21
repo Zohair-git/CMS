@@ -11,7 +11,8 @@ namespace CMS.Models
         public int? Rating { get; set; }
         public string? Text { get; set; }
         public int? PId { get; set; }
-
+            
         public virtual TblProduct? PIdNavigation { get; set; }
-    }
+		
+	}
 }
