@@ -200,8 +200,7 @@ namespace CMS.Controllers
 		[HttpPost]
 		public async Task<IActionResult> ProductAdd(AllTables model, List<IFormFile> imgs, IFormFile banner)
 		{
-			var assddss = model.productss.ProductName;
-
+		
 			if (banner != null && banner.Length > 0)
 			{
 				var fileExt = System.IO.Path.GetExtension(banner.FileName).Substring(1);
